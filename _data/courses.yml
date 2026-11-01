@@ -1,0 +1,300 @@
+- id: AI001
+  title: Introduction to Artificial Intelligence (AI)
+  cluster: ai
+  level: Beginner
+  duration: 4–5 hours
+  summary: A broad introduction to AI concepts, machine learning, deep learning, neural networks, NLP
+    and ethical considerations.
+  course_page: https://alison.com/course/introduction-to-artificial-intelligence-ai
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: AI002
+  title: Diploma in Fundamentals of Artificial Intelligence
+  cluster: ai
+  level: Advanced
+  duration: 10–15 hours
+  summary: A more technical introduction to AI foundations, heuristics, knowledge representation, planning
+    and problem-solving. Alison labels it Advanced and notes that relevant programming and computer-science
+    background is useful.
+  course_page: https://alison.com/course/diploma-in-fundamentals-of-artificial-intelligence
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: AI003
+  title: Machine Learning with Artificial Intelligence
+  cluster: ai
+  level: Advanced
+  duration: 10–15 hours
+  summary: A course option for learners who want to explore the relationship between machine learning
+    and AI.
+  course_page: https://alison.com/course/machine-learning-with-artificial-intelligence
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: DATA001
+  title: Basics of Data Analysis with Excel
+  cluster: data
+  level: Advanced
+  duration: 3–4 hours
+  summary: Covers Excel data handling, formulas, functions and data cleaning. Alison currently labels
+    this course Advanced.
+  course_page: https://alison.com/course/basics-of-data-analysis-with-excel
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: CYBER001
+  title: Diploma in Cyber Security
+  cluster: cyber
+  level: Beginner
+  duration: 6–10 hours
+  summary: Introduces cyber threats, vulnerability assessment, operating-system hardening, network security,
+    cloud and mobile security.
+  course_page: https://alison.com/course/diploma-in-cyber-security
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: SOFT001
+  title: Introduction to Programming with Python
+  cluster: software
+  level: Beginner
+  duration: 3–4 hours
+  summary: Introduces Python concepts including functions, conditionals, loops and basic algorithms.
+  course_page: https://alison.com/course/introduction-to-programming-with-python-revised
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: SOFT002
+  title: Diploma in C Programming
+  cluster: software
+  level: Beginner
+  duration: 10–15 hours
+  summary: A beginner-level diploma introducing C programming, including number systems, data types, variables,
+    functions, pointers, arrays and conditional logic.
+  course_page: https://alison.com/course/diploma-in-c-programming-revised-2017
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: BIZ001
+  title: Essentials of Management Consulting
+  cluster: business
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Introduces organisational analysis, client needs, frameworks such as SWOT and PESTLE, KPIs
+    and improvement strategies.
+  course_page: https://alison.com/course/essentials-of-management-consulting
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: PROJ001
+  title: Diploma in Project Management
+  cluster: project
+  level: Beginner
+  duration: 10–15 hours
+  summary: Covers project phases, planning, scope, scheduling, resources, budgets, risk and project methodologies.
+  course_page: https://alison.com/course/diploma-in-project-management-revised-2017
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: MKT001
+  title: Digital Marketing Overview
+  cluster: marketing
+  level: Beginner
+  duration: 4–5 hours
+  summary: Introduces marketing funnels, email marketing, landing pages, webinars and digital campaign
+    basics.
+  course_page: https://alison.com/course/digital-marketing-overview
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: MKT002
+  title: AI-Driven Digital Marketing Strategies
+  cluster: marketing
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: An option for exploring how AI can be incorporated into digital marketing strategy. Check the
+    live syllabus and tools covered.
+  course_page: https://alison.com/course/ai-driven-digital-marketing-strategies
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: FIN001
+  title: Financial Accounting Basics
+  cluster: finance
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Introduces accounting principles, the chart of accounts, income statements, balance sheets
+    and cash-flow concepts.
+  course_page: https://alison.com/course/financial-accounting-basics
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: HR001
+  title: Diploma in Human Resources (HR)
+  cluster: leadership
+  level: Beginner
+  duration: 10–15 hours
+  summary: Covers core HR responsibilities, recruitment, selection, training, appraisal, retention and
+    organisational culture.
+  course_page: https://alison.com/course/diploma-in-human-resources-hr
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: HR002
+  title: Communication Skills for Managers
+  cluster: leadership
+  level: Intermediate
+  duration: Not listed
+  summary: A CPD-accredited, intermediate-level course on clear workplace communication, active listening,
+    difficult conversations, presentations and productive meetings for managers and team leaders.
+  course_page: https://alison.com/course/communication-skills-for-managers
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  data_note: Alison's September 2026 course announcement identifies this course as Intermediate and CPD-accredited.
+    The reviewed course page did not display a course-specific duration or a confirmed Spanish-language
+    option.
+  career_ids: []
+  learning_path_ids: []
+- id: CARE001
+  title: Diploma in Health and Social Care
+  cluster: health
+  level: Advanced
+  duration: 10–15 hours
+  summary: Covers responsibilities in health and social care, ethics, communication, mental-health support
+    and infection prevention.
+  course_page: https://alison.com/course/diploma-in-health-and-social-care
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: EDU001
+  title: Diploma in Educational Psychology
+  cluster: education
+  level: Beginner
+  duration: 10–15 hours
+  summary: Introduces educational psychology and learning theory, including behaviourism and constructivism,
+    and how these ideas can inform teaching practice.
+  course_page: https://alison.com/course/diploma-in-educational-psychology-revised-2017
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: EDU002
+  title: Diploma in Effective Teaching Principles for the 21st Century
+  cluster: education
+  level: Advanced
+  duration: 10–15 hours
+  summary: An advanced diploma covering contemporary teaching principles, curriculum and assessment, the
+    ADDIE model, Bloom’s revised taxonomy and approaches to learner engagement.
+  course_page: https://alison.com/course/diploma-in-effective-teaching-principles-for-the-21st-century
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: ENG001
+  title: Solar Energy – Solar Technology and Its Use Worldwide
+  cluster: engineering
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Introduces solar energy uses, photovoltaic systems, adoption barriers and the role of policy
+    and communities.
+  course_page: https://alison.com/course/solar-energy-solar-technology-and-its-use-worldwide
+  reviewed: '2026-11-01'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: ENG002
+  title: Diploma in Solar Energy
+  cluster: engineering
+  level: Advanced
+  duration: 6–10 hours
+  summary: An advanced diploma exploring solar-energy principles, solar radiation, concentrators and photovoltaic
+    systems, including how solar technologies can be evaluated and applied.
+  course_page: https://alison.com/course/diploma-in-solar-energy
+  reviewed: '2026-11-01'
+  credential_type: Diploma
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
