@@ -63,7 +63,7 @@ Every commercial CTA references `site.affiliate.alison_url`. Alison's affiliate 
 ## Limitations and maintenance
 
 - Catalogue counts change and are intentionally not hardcoded into the hub copy.
-- Course duration and level are shown only where surfaced clearly in the reviewed public page. Otherwise, cards explicitly tell readers to check the live Alison page.
+- Course level, duration, credential type, language availability and CPD status are stored where verified. The only course-specific duration still not listed in the reviewed record is HR002; it is shown as “Not listed” rather than estimated.
 - Course availability, syllabus, provider and language may change; review the live page before publishing or updating content.
 - An Alison course does not guarantee a job or satisfy licensing requirements in a regulated profession.
 - This review records public page checks completed on 1 November 2026, not a permanent guarantee of current course availability.
@@ -86,3 +86,8 @@ Every commercial CTA references `site.affiliate.alison_url`. Alison's affiliate 
 - Alison affiliate learner FAQ: https://alison.com/faqs/learners/affiliate-programme-1
 - Alison terms of use: https://alison.com/about/terms-of-use
 - World Economic Forum, Future of Jobs Report 2025: https://www.weforum.org/publications/the-future-of-jobs-report-2025/3-skills-outlook
+
+
+## Updated course metadata
+
+The detailed 19-record reconciliation is documented in `course-data-audit-2026-11-01.md`. Course records now include `credential_type`, `languages`, `cpd_accredited`, `career_ids` and `learning_path_ids`. Career and learning-path arrays are intentionally empty until canonical career/path datasets are added to this repository.
