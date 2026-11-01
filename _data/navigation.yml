@@ -1,0 +1,7 @@
+primary:
+  - label: Explore clusters
+    url: /clusters/
+  - label: How we select
+    url: /how-we-select/
+  - label: About
+    url: /about/

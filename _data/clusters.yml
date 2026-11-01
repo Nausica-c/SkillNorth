@@ -1,0 +1,425 @@
+- id: ai
+  slug: ai-machine-learning
+  title: AI & Machine Learning
+  short_title: AI & machine learning
+  eyebrow: Technology cluster 01
+  icon: ✳
+  tone: lime
+  summary: Understand artificial intelligence, machine learning and the practical questions behind their use.
+  description: Explore Alison courses in artificial intelligence and machine learning, from core concepts to practical
+    applications and responsible use.
+  alison_categories:
+  - Information Technology (IT)
+  - Business
+  topics:
+  - AI literacy and core concepts
+  - Machine learning foundations
+  - Neural networks and natural language processing
+  - Responsible and ethical AI
+  - Practical uses of AI at work
+  related:
+  - data
+  - software
+  - cyber
+  - marketing
+  course_ids:
+  - AI001
+  - AI002
+  - AI003
+  why: AI is changing how work gets done, but a useful learning plan starts with concepts, limits and judgment—not
+    with a tool list. Build enough understanding to recognise where AI can help, where its outputs need checking
+    and which deeper technical path interests you.
+  sequence:
+  - Start with a general introduction to AI and learn the differences between AI, machine learning and deep learning.
+  - Move into a more structured course if you want to understand models, applications and technical vocabulary.
+  - Choose one real workflow—research, summarising, classification or a repetitive task—and test an AI-assisted
+    process while checking accuracy, privacy and bias.
+  caveat: An introductory course can build literacy, not replace mathematics, programming, domain experience or
+    advanced machine-learning practice. Treat AI as one skill inside a broader professional toolkit.
+- id: data
+  slug: data-analytics-excel
+  title: Data Analytics & Excel
+  short_title: Data analytics
+  eyebrow: Technology cluster 02
+  icon: ▦
+  tone: blue
+  summary: Turn spreadsheets and raw information into clearer analysis and better decisions.
+  description: A practical starting point for data analysis, spreadsheet skills, data cleaning and evidence-based
+    decisions using Alison learning resources.
+  alison_categories:
+  - Information Technology (IT)
+  - Business
+  topics:
+  - Spreadsheet structure and data types
+  - Excel formulas and functions
+  - Data cleaning and preparation
+  - Basic analysis and interpretation
+  - Explaining findings clearly
+  related:
+  - ai
+  - finance
+  - business
+  - software
+  course_ids:
+  - DATA001
+  why: Data skills are useful well beyond specialist analyst roles. Operations, sales, finance, marketing and project
+    teams all need people who can organise information, spot patterns and explain what the numbers do—and do not—say.
+  sequence:
+  - 'Build a reliable spreadsheet foundation: tables, formulas, references and clean data.'
+  - Practise by taking a small messy dataset and documenting every change you make.
+  - Summarise the result in a simple chart or short decision note, explaining assumptions and missing information.
+  caveat: Excel is a strong entry point, not the whole analytics stack. Depending on your goal, you may later need
+    SQL, a visualisation tool, statistics or programming. Do not describe a short introductory course as professional
+    analyst certification.
+- id: cyber
+  slug: cybersecurity-it
+  title: Cybersecurity & IT Infrastructure
+  short_title: Cybersecurity
+  eyebrow: Technology cluster 03
+  icon: ⌑
+  tone: coral
+  summary: Learn the foundations of digital security, networks, threats and safer systems.
+  description: Explore cybersecurity and IT infrastructure learning paths, including threat awareness, network security,
+    cloud protection and ethical practice.
+  alison_categories:
+  - Information Technology (IT)
+  topics:
+  - Common cyber threats and attack surfaces
+  - Network security and access control
+  - Operating-system and account hardening
+  - Cloud and mobile security
+  - Ethics, law and responsible testing
+  related:
+  - software
+  - ai
+  - project
+  - data
+  course_ids:
+  - CYBER001
+  why: Connected systems create more ways for organisations to work—and more ways for them to be disrupted. Cybersecurity
+    foundations help learners understand risks, protective controls and why security is a shared responsibility
+    across technical and non-technical teams.
+  sequence:
+  - 'Learn core security language: assets, vulnerabilities, threats, risk and controls.'
+  - Understand how networks, devices, accounts and cloud services fit together.
+  - Practise safe habits in a controlled learning environment and study defensive approaches before exploring specialist
+    tracks.
+  caveat: A self-paced course is not permission to test real systems. Only assess systems when you have explicit
+    authorisation. Professional security roles may require hands-on labs, deeper technical study and separate industry
+    certifications.
+- id: software
+  slug: software-development-programming
+  title: Software Development & Programming
+  short_title: Software development
+  eyebrow: Technology cluster 04
+  icon: ⌘
+  tone: violet
+  summary: Start building computational thinking with programming foundations and structured practice.
+  description: Find beginner-friendly ways into programming through Python, C and the core habits behind writing
+    and debugging code.
+  alison_categories:
+  - Information Technology (IT)
+  topics:
+  - Programming logic and algorithms
+  - Python syntax and functions
+  - Variables, loops and conditionals
+  - Debugging and problem solving
+  - 'Choosing a next step: web, data or systems'
+  related:
+  - ai
+  - data
+  - cyber
+  - project
+  course_ids:
+  - SOFT001
+  - SOFT002
+  why: Programming is learned by doing. A course can provide structure and explain concepts, but progress comes
+    from writing small programs, debugging them and gradually building something useful.
+  sequence:
+  - Begin with one language and learn variables, conditions, loops and functions.
+  - Recreate small examples without copying line by line; predict what the code will do before running it.
+  - Build a tiny project such as a calculator, file organiser or simple data-cleaning script, then document what
+    you learned.
+  caveat: Completing an introductory programming course does not by itself make someone job-ready. Employers typically
+    look for applied projects, debugging ability, collaboration and familiarity with the tools used in a particular
+    role.
+- id: business
+  slug: business-entrepreneurship
+  title: Business & Entrepreneurship
+  short_title: Business & entrepreneurship
+  eyebrow: Business cluster 05
+  icon: ◈
+  tone: gold
+  summary: Understand organisations, customers, business problems and the frameworks used to improve performance.
+  description: Explore business fundamentals, management consulting, strategy, customer value and entrepreneurial
+    thinking through Alison courses.
+  alison_categories:
+  - Business
+  - Management
+  topics:
+  - Business models and value propositions
+  - Problem framing and client needs
+  - SWOT, PESTLE and organisational analysis
+  - Customer service and stakeholder needs
+  - Continuous improvement and change
+  related:
+  - project
+  - finance
+  - marketing
+  - leadership
+  course_ids:
+  - BIZ001
+  why: Business skills connect ideas to execution. Whether you work in a company, run a small business or are exploring
+    a new direction, learning to analyse a problem, understand customers and communicate a workable recommendation
+    is valuable across functions.
+  sequence:
+  - 'Learn the language of organisations: customers, costs, revenue, operations and value.'
+  - Use a structured framework to analyse one real business problem.
+  - Write a one-page recommendation that explains the issue, evidence, options, risks and next step.
+  caveat: A business course can introduce frameworks, but real decisions depend on evidence, context and experience.
+    Treat case exercises as practice—not as proof that a business model or strategy will work.
+- id: project
+  slug: project-operations-management
+  title: Project & Operations Management
+  short_title: Project management
+  eyebrow: Business cluster 06
+  icon: ↗
+  tone: blue
+  summary: Learn how to define work, plan delivery, manage risks and keep projects moving.
+  description: A practical hub for project management basics, project life cycles, planning, scheduling, resources,
+    budgets and operational improvement.
+  alison_categories:
+  - Management
+  - Business
+  topics:
+  - Project scope and objectives
+  - Planning, scheduling and dependencies
+  - Resource allocation and budgets
+  - Risk, quality and communication
+  - Monitoring, change and close-out
+  related:
+  - business
+  - leadership
+  - cyber
+  - engineering
+  course_ids:
+  - PROJ001
+  why: Project management is a transferable way of organising work when a goal has a deadline, constraints and multiple
+    people involved. The fundamentals apply to launches, process changes, events, internal improvements and technical
+    delivery.
+  sequence:
+  - Start with the project life cycle and learn how scope, schedule, cost and quality interact.
+  - Draft a small project charter with a clear outcome, stakeholders, constraints and risks.
+  - Build a simple schedule, check progress regularly and record changes rather than relying on memory.
+  caveat: A course introduces methods; it does not automatically confer a recognised professional project-management
+    certification. Check the current course page and any separate certification requirements before making a credential
+    claim.
+- id: marketing
+  slug: digital-marketing-ecommerce
+  title: Digital Marketing & E-commerce
+  short_title: Digital marketing
+  eyebrow: Growth cluster 07
+  icon: ✳
+  tone: coral
+  summary: Connect audience research, content, funnels, email and digital channels to measurable goals.
+  description: Explore digital marketing foundations and AI-supported strategies, from customer journeys to content,
+    email and campaign planning.
+  alison_categories:
+  - Sales & Marketing
+  - Business
+  topics:
+  - Audience and customer research
+  - Marketing funnels and conversion stages
+  - Content and channel planning
+  - Email marketing and landing pages
+  - Responsible use of AI in marketing
+  related:
+  - business
+  - data
+  - ai
+  - leadership
+  course_ids:
+  - MKT001
+  - MKT002
+  why: Digital marketing combines creative judgment with measurement. Strong practice starts by understanding an
+    audience and a goal, then choosing the right message, channel and metric—not by publishing more content without
+    a plan.
+  sequence:
+  - Learn the customer journey and how awareness, consideration and action differ.
+  - Choose one audience and write a clear offer, landing-page message and follow-up sequence.
+  - Measure a small campaign using a relevant metric and record what you would change next time.
+  caveat: Platform interfaces and advertising policies change frequently. A course gives concepts and practice,
+    but always verify current rules, privacy requirements and platform features before launching a campaign.
+- id: finance
+  slug: finance-accounting
+  title: Finance & Accounting
+  short_title: Finance & accounting
+  eyebrow: Business cluster 08
+  icon: ▤
+  tone: lime
+  summary: Build confidence with accounting language, financial statements and the logic behind business numbers.
+  description: Start with core accounting concepts, financial statements, cash flow and the information used to
+    understand an organisation’s financial position.
+  alison_categories:
+  - Business
+  topics:
+  - Accounting principles and the accounting equation
+  - Chart of accounts and bookkeeping
+  - Income statements and balance sheets
+  - Cash flow and working capital
+  - Reading financial information critically
+  related:
+  - data
+  - business
+  - leadership
+  - project
+  course_ids:
+  - FIN001
+  why: Financial understanding is useful even for people who are not accountants. It helps founders, managers, analysts
+    and team leads ask better questions about costs, cash, profitability and performance.
+  sequence:
+  - Learn the purpose of the main financial statements and how they relate.
+  - Practise classifying transactions and following how they affect the accounting equation.
+  - Read a simple set of financial statements and summarise what they suggest—and what they cannot tell you.
+  caveat: Foundational learning is not a substitute for regulated financial, tax or accounting advice. Local standards
+    and reporting rules vary, so use course material as an introduction and verify jurisdiction-specific requirements.
+- id: leadership
+  slug: leadership-human-resources
+  title: Leadership & Human Resources
+  short_title: Leadership & HR
+  eyebrow: People cluster 09
+  icon: ◎
+  tone: violet
+  summary: Develop the people skills and HR foundations that help teams communicate, coordinate and grow.
+  description: Explore management communication, recruitment, employee development, performance, workplace relationships
+    and leadership practice.
+  alison_categories:
+  - Management
+  - Personal Development
+  - Business
+  topics:
+  - Communication for managers
+  - Recruitment and selection
+  - Training and performance
+  - Conflict and feedback
+  - Leadership, motivation and change
+  related:
+  - business
+  - project
+  - marketing
+  - education
+  course_ids:
+  - HR001
+  - HR002
+  why: Technology changes tasks, but work still happens through people. Clear communication, fair people processes
+    and the ability to support teams remain useful across industries and job levels.
+  sequence:
+  - 'Start with communication habits: listening, clarity, feedback and expectations.'
+  - Learn the employee life cycle, from recruitment and onboarding to development and retention.
+  - Apply one idea in a real team context and reflect on the response, rather than treating a framework as a universal
+    script.
+  caveat: HR rules, employment law and workplace obligations vary by country. Courses are learning resources; they
+    are not legal advice or a substitute for local professional qualifications.
+- id: health
+  slug: health-social-care
+  title: Health & Social Care
+  short_title: Health & social care
+  eyebrow: Care cluster 10
+  icon: ＋
+  tone: coral
+  summary: Explore care principles, communication, safeguarding, wellbeing and the responsibilities involved in
+    supporting people.
+  description: A learning hub for health and social care topics, with an emphasis on foundational knowledge, ethical
+    practice and informed next steps.
+  alison_categories:
+  - Health
+  topics:
+  - Roles and responsibilities in care
+  - Communication and person-centred support
+  - Ethics, consent and safeguarding
+  - Infection prevention and wellbeing
+  - Understanding care settings
+  related:
+  - leadership
+  - education
+  - engineering
+  course_ids:
+  - CARE001
+  why: Care-related learning can help people understand the language, principles and responsibilities involved in
+    supporting others. It can also help existing workers refresh knowledge, provided the course matches their role
+    and local requirements.
+  sequence:
+  - Clarify whether your goal is personal knowledge, workplace development or entry into a regulated profession.
+  - Begin with core care principles, communication, safeguarding and ethical responsibilities.
+  - Check the formal training, supervised practice and registration rules that apply where you intend to work.
+  caveat: Health and care work can be regulated. A short online course does not authorise clinical practice, replace
+    supervised training or meet every local qualification requirement. Always verify the rules in your country.
+- id: education
+  slug: teaching-education
+  title: Teaching & Education
+  short_title: Teaching & education
+  eyebrow: Learning cluster 11
+  icon: ⌁
+  tone: gold
+  summary: Explore how people learn, how instruction is designed and how educators support different learners.
+  description: Find Alison learning resources in educational psychology, teaching principles, instructional design
+    and learner support.
+  alison_categories:
+  - Teaching & Academics
+  topics:
+  - Educational psychology and learning
+  - Lesson and learning objective design
+  - Instructional methods and assessment
+  - Inclusive and differentiated teaching
+  - Feedback and learner engagement
+  related:
+  - leadership
+  - health
+  - business
+  course_ids:
+  - EDU001
+  - EDU002
+  why: Teaching is more than presenting information. It involves understanding learners, setting clear objectives,
+    selecting methods and checking whether learning has actually happened.
+  sequence:
+  - Explore learning theories and the factors that influence how people understand new ideas.
+  - Translate one outcome into a short lesson plan with practice and an assessment.
+  - Review the evidence of learning and adapt the instruction for different needs.
+  caveat: Online courses can support professional development, but they do not automatically grant teaching licensure
+    or satisfy local registration requirements. Check the rules for the education setting where you plan to work.
+- id: engineering
+  slug: engineering-sustainable-skills
+  title: Engineering & Sustainable Skills
+  short_title: Engineering & sustainability
+  eyebrow: Applied skills cluster 12
+  icon: ⌬
+  tone: blue
+  summary: Explore engineering fundamentals, construction-related knowledge and the technologies behind the energy
+    transition.
+  description: A starting point for engineering and construction topics, including solar technology, renewable energy
+    and practical technical foundations.
+  alison_categories:
+  - Engineering & Construction
+  topics:
+  - Engineering and construction fundamentals
+  - Solar energy and photovoltaic systems
+  - Energy transition and sustainability
+  - Safety and quality awareness
+  - Technical problem solving
+  related:
+  - project
+  - data
+  - health
+  - business
+  course_ids:
+  - ENG001
+  - ENG002
+  why: Engineering and sustainability combine technical knowledge with practical systems thinking. Learners can
+    use introductory courses to understand a technology, explore a specialism or prepare better questions before
+    pursuing formal technical training.
+  sequence:
+  - 'Choose a focus area: energy, construction, manufacturing or another engineering discipline.'
+  - Build the underlying vocabulary and learn how the system works.
+  - Connect the theory to a practical case, while checking safety standards and local regulations.
+  caveat: Introductory online learning does not qualify someone to perform regulated engineering, electrical or
+    construction work. Safety-critical tasks require the appropriate formal training, supervision and authorisation.

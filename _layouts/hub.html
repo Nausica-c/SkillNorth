@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% assign cluster = site.data.clusters | where: 'id', page.cluster_id | first %}
+<section class="hub-hero hub-{{ cluster.tone }}">
+  <div class="shell hub-hero-grid">
+    <div class="hub-hero-copy">
+      <div class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span><a href="{{ '/clusters/' | relative_url }}">Clusters</a><span>/</span><span>{{ cluster.short_title }}</span></div>
+      <p class="eyebrow">{{ cluster.eyebrow }}</p>
+      <h1>{{ cluster.title }}</h1>
+      <p class="lead">{{ cluster.summary }}</p>
+      <div class="hero-actions"><a class="button button-dark" href="#featured-courses">Explore course picks <span aria-hidden="true">↓</span></a><a class="quiet-link" href="{{ '/clusters/' | relative_url }}">All skill clusters</a></div>
+    </div>
+    <div class="hub-hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core">{{ cluster.icon }}</div><span class="orbit-tag tag-a">LEARN</span><span class="orbit-tag tag-b">PRACTISE</span><span class="orbit-tag tag-c">APPLY</span></div>
+  </div>
+</section>
+<section class="shell hub-body-grid">
+  <article class="prose hub-prose">
+    <p class="hub-intro">{{ cluster.why }}</p>
+    {{ content }}
+    <section class="learning-sequence">
+      <p class="eyebrow">A practical starting sequence</p>
+      <ol>{% for step in cluster.sequence %}<li>{{ step }}</li>{% endfor %}</ol>
+    </section>
+    <div class="caution-note"><strong>Keep the scope realistic.</strong> {{ cluster.caveat }}</div>
+  </article>
+  <aside class="hub-sidebar">
+    <div class="sidebar-card">
+      <p class="eyebrow">Skills covered</p>
+      <ul class="topic-list">{% for topic in cluster.topics %}<li>{{ topic }}</li>{% endfor %}</ul>
+      <div class="sidebar-rule"></div>
+      <p class="sidebar-label">Alison categories</p>
+      <p class="sidebar-categories">{{ cluster.alison_categories | join: ' · ' }}</p>
+      <p class="sidebar-label">Last reviewed</p>
+      <p class="sidebar-categories">1 November 2026</p>
+    </div>
+    <div class="sidebar-cta"><p class="eyebrow">Ready to explore?</p><h3>Start with one useful skill.</h3>{% include affiliate-button.html label='Browse Alison courses' %}</div>
+  </aside>
+</section>
+<section class="course-section" id="featured-courses">
+  <div class="shell">
+    <div class="section-heading"><div><p class="eyebrow">Selected starting points</p><h2>Alison courses to explore</h2></div><p>These are editorial starting points, not an official Alison ranking. Course details can change; check the live course page before enrolling.</p></div>
+    {% include course-cards.html cluster_id=cluster.id %}
+    <p class="course-footnote">All Alison courses are free to enrol in, study and complete. Digital or printed certificates/diplomas are optional purchases. A free Learner Record is available after completion. Check each course page for current conditions.</p>
+    <div class="course-section-cta">{% include affiliate-button.html label='Explore Alison learning' %}</div>
+  </div>
+</section>
+<section class="related-section shell">
+  <div class="section-heading"><div><p class="eyebrow">Keep building</p><h2>Related skill clusters</h2></div><a class="text-link" href="{{ '/clusters/' | relative_url }}">View all clusters ↗</a></div>
+  <div class="related-links">{% for related_id in cluster.related %}{% assign related = site.data.clusters | where: 'id', related_id | first %}<a href="{{ '/clusters/' | append: related.slug | append: '/' | relative_url }}"><span>{{ related.eyebrow }}</span><strong>{{ related.title }}</strong><b aria-hidden="true">↗</b></a>{% endfor %}</div>
+</section>

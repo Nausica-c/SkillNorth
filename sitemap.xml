@@ -1,0 +1,15 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ '/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/clusters/' | absolute_url }}</loc></url>
+  {% for cluster in site.data.clusters %}<url><loc>{{ '/clusters/' | append: cluster.slug | append: '/' | absolute_url }}</loc></url>{% endfor %}
+  <url><loc>{{ '/about/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/how-we-select/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/affiliate-disclosure/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/privacy/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/contact/' | absolute_url }}</loc></url>
+</urlset>

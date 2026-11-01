@@ -1,0 +1,10 @@
+<div class="cluster-grid" data-cluster-grid>
+  {% for cluster in site.data.clusters %}
+    <a class="cluster-card cluster-{{ cluster.tone }}" href="{{ '/clusters/' | append: cluster.slug | append: '/' | relative_url }}" data-search="{{ cluster.title | downcase }} {{ cluster.summary | downcase }} {{ cluster.topics | join: ' ' | downcase }}">
+      <div class="cluster-card-top"><span class="cluster-icon" aria-hidden="true">{{ cluster.icon }}</span><span class="cluster-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span></div>
+      <h3>{{ cluster.title }}</h3>
+      <p>{{ cluster.summary }}</p>
+      <span class="card-arrow">Explore cluster <b aria-hidden="true">↗</b></span>
+    </a>
+  {% endfor %}
+</div>

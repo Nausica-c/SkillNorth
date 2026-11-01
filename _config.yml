@@ -1,0 +1,58 @@
+title: SkillNorth
+tagline: Build skills that move with you.
+description: Independent guides to practical courses and career skills for a changing world of work.
+url: "https://nausica-20.github.io"
+baseurl: "/SkillNorth"
+lang: en
+locale: en_US
+markdown: kramdown
+permalink: pretty
+future: false
+strict_front_matter: true
+launch_mode: true
+contact_email: ""
+
+# Keep the affiliate destination here. Every commercial CTA reads this single value.
+affiliate:
+  partner_name: Alison
+  alison_url: "https://alison.com/?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349"
+  rel: "sponsored nofollow noopener"
+
+collections:
+  hubs:
+    output: true
+    permalink: /clusters/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/images/skillnorth-social-card.svg
+  - scope:
+      path: ""
+      type: hubs
+    values:
+      layout: hub
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - docs
+  - scripts
+  - vendor
+  - node_modules
+  - .github
+  - .gitignore
+  - package.json
+  - package-lock.json
+
+include:
+  - _pages
+
+sass:
+  style: compressed
+
+# The initial build is intentionally noindex while the owner reviews contact and legal details.

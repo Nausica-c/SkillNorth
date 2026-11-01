@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="SkillNorth home">
+      <img src="{{ '/assets/images/skillnorth-mark.svg' | relative_url }}" alt="" width="38" height="38">
+      <span>Skill<span class="brand-accent">North</span><small>LEARN WITH DIRECTION</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+      {% for item in site.data.navigation.primary %}
+        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+      <a class="nav-cta" href="{{ site.affiliate.alison_url }}" target="_blank" rel="{{ site.affiliate.rel }}">Explore Alison <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
