@@ -53,6 +53,11 @@ Open `http://localhost:4000/SkillNorth/`.
 
 - SkillNorth is an independent publisher, not Alison's official website.
 - A SkillNorth list is an editorial selection, not an official Alison ranking.
-- Course levels and durations are displayed only where they were verified on the course page; otherwise the reader is told to check Alison's live page.
+- Course level, duration, credential type, available languages and CPD status are surfaced where verified. HR002 has no duration shown on the reviewed page and is marked “Not listed”.
 - Do not imply that course completion guarantees a job or meets local professional licensing requirements.
 - Alison says course enrolment, study and completion are free; digital and printed certificates/diplomas can be optional purchases. Check each live course page and Alison's current terms.
+
+
+## Course data maintenance
+
+See `docs/research/course-data-audit-2026-11-01.md` for the 19-course metadata audit and remaining mapping requirements. `career_ids` and `learning_path_ids` are present in the course schema but are left empty until canonical career and learning-path datasets are added.
