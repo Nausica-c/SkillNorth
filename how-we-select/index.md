@@ -12,14 +12,20 @@ SkillNorth is an independent editorial project. We organise course options into 
 ## What we check
 
 1. **Topic fit.** The course should sit clearly within the cluster and support a recognisable learning goal.
-2. **Course-page evidence.** We review the public title, description, stated learning outcomes and any level or duration displayed by Alison.
+2. **Course-page evidence.** We review the public title, description, learning outcomes, displayed level, estimated duration, credential type, available languages and CPD status where these details are shown.
 3. **Practical usefulness.** We favour topics that can be connected to a practice task, project or work situation.
 4. **Realistic scope.** We distinguish introductory learning from professional licensing, regulated qualifications and advanced technical competence.
 5. **Maintenance.** Course titles, availability, languages, duration and syllabi can change. We mark review dates and recommend checking the live Alison page before enrolling.
 
 ## How to read our course cards
 
-A level or duration is shown only when it was visible in the Alison page reviewed. Where it was not clear, the card says to check Alison's current course page. That is intentional: we do not fill gaps with guesses.
+- **Level** reproduces Alison's displayed label (Beginner, Intermediate or Advanced). It is not a claim about the learner's existing ability or a guarantee of job readiness.
+- **Duration** is Alison's estimated study time, not a fixed deadline. The courses are self-paced. If a course-specific duration was not visible on the reviewed page, the card says **Not listed**. We do not estimate it.
+- **Credential** distinguishes Alison's Certificate and Diploma course types. It does not imply a regulated qualification or a professional licence.
+- **Languages** lists the course languages that were confirmed in the reviewed Alison listing. An empty or unconfirmed language list is not expanded by inference.
+- **CPD** reports the CPD-accredited status displayed by Alison. CPD accreditation must not be read as professional licensing, statutory recognition or guaranteed employment value.
+
+At the review date, 18 of the 19 courses had a visible estimated duration. **Communication Skills for Managers (HR002)** is marked **Not listed** because no course-specific duration was shown in the material reviewed. Its level and CPD status were confirmed in Alison's September 2026 announcement.
 
 ## Why the clusters differ from Alison's categories
 
@@ -31,4 +37,4 @@ A course can provide structured learning and a way to practise a topic. It canno
 
 ## Review date
 
-The current Alison course-page review was completed on **1 November 2026**. We aim to revisit course details periodically, especially when course pages or platform policies change.
+The current course-page review was completed on **1 November 2026**. Course details can change; check the live Alison course page before enrolling.
