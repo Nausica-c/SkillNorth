@@ -5,10 +5,10 @@ An independent, English-language learning and career-skills guide built with Jek
 ## Included
 
 - Custom SkillNorth visual identity and responsive styles.
-- Homepage, cluster directory and 12 hub pages.
+- Homepage, cluster directory, 12 hub pages and the pillar guide “Essential Skills for 2027”.
 - 19 Alison course starting points held in `_data/courses.yml`.
 - One source of truth for the Alison affiliate URL in `_config.yml`.
-- About, editorial methodology, affiliate disclosure, privacy draft, contact and 404 pages.
+- About, editorial methodology, affiliate disclosure, privacy notice, contact and 404 pages.
 - GitHub Actions deployment workflow for GitHub Pages.
 - Alison platform review and cluster map under `docs/` (excluded from the public build).
 
@@ -28,15 +28,17 @@ All commercial buttons reference `site.affiliate.alison_url`. The build delibera
 4. In the repository, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source.
 5. Push to `main`. The workflow in `.github/workflows/pages.yml` builds Jekyll and deploys the generated site.
 
-## Before public launch
+## Indexation and remaining owner actions
 
-The repository starts with `launch_mode: true`. This intentionally adds `noindex,nofollow` and blocks crawling in `robots.txt` while the owner reviews the site. Before switching it off:
+The repository is now configured with `launch_mode: false`. Public pages emit `index,follow` and the project includes a sitemap. Search engines can crawl and potentially index the pages after deployment; indexing is not guaranteed and may take time. Because this is a GitHub Pages project site under `/SkillNorth/`, its `robots.txt` is also under that subdirectory. Google requires `robots.txt` at the host root to control crawling for a host; therefore use the page-level meta robots directives and submit the sitemap URL directly in Google Search Console.
 
-- Set a public `contact_email` in `_config.yml`.
-- Review the draft privacy notice against the actual hosting, jurisdiction and any services you add.
-- Confirm the affiliate link still belongs to your Alison account and remains active.
-- Recheck every Alison course page and update the `reviewed` date if course details have changed.
-- Set `launch_mode: false` in `_config.yml`, then rebuild and verify `robots.txt` and page meta robots.
+Before collecting visitor information or expanding the site, the owner should:
+
+- The public contact email `skillnorthsite@gmail.com` is configured in `_config.yml` and displayed on the Contact page and in the footer. Add the publisher/operator's legal identity in the site notice where required.
+- Review the privacy notice against the operator's location, target markets and actual hosting/services. The current notice describes the static site configuration and is not a substitute for jurisdiction-specific legal review.
+- Confirm the affiliate link still belongs to the owner's Alison account and remains active.
+- Recheck every Alison course page and update the `reviewed` date when course details change.
+- After deployment, verify the live sitemap URL, canonical tags and page-level robots metadata. Submit `https://nausica-20.github.io/SkillNorth/sitemap.xml` in Google Search Console. The project-subdirectory `robots.txt` cannot replace a host-root robots file.
 
 ## Local preview
 
@@ -61,3 +63,12 @@ Open `http://localhost:4000/SkillNorth/`.
 ## Course data maintenance
 
 See `docs/research/course-data-audit-2026-11-01.md` for the 19-course metadata audit and remaining mapping requirements. `career_ids` and `learning_path_ids` are present in the course schema but are left empty until canonical career and learning-path datasets are added.
+
+## 2027 pillar guide
+
+The new guide is published at `/guides/essential-skills-for-2027/`. It is linked from the main navigation and homepage, included in `sitemap.xml`, and uses the shared Alison affiliate CTA include so the destination remains managed centrally in `_config.yml`.
+
+
+## Funnel implementation
+
+See [`docs/funnel-phases-1-4.md`](docs/funnel-phases-1-4.md) for the implementation of the 2027 pillar and the pillar-to-cluster-to-course journey.

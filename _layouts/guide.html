@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<section class="guide-hero">
+  <div class="shell guide-hero-grid">
+    <div class="guide-hero-copy">
+      <div class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span><span>Guides</span><span>/</span><span>2027 Skills Guide</span></div>
+      <p class="eyebrow">{{ page.kicker | default: 'THE 2027 WORKPLACE SKILLS GUIDE' }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+      <div class="guide-meta"><span>SkillNorth editorial guide</span><span>Last reviewed {{ page.last_reviewed | date: '%-d %B %Y' }}</span></div>
+      <div class="hero-actions">
+        <a class="button button-lime" href="#transferable-skills">Explore the skills <span aria-hidden="true">↓</span></a>
+        <a class="button button-ghost" href="#skill-cluster-map">Choose a skill area</a>
+      </div>
+    </div>
+    <aside class="guide-hero-card" aria-label="Guide summary">
+      <span class="guide-card-index">SKILLNORTH / 2027</span>
+      <div class="guide-card-symbol" aria-hidden="true">↗</div>
+      <p class="eyebrow eyebrow-light">A practical starting point</p>
+      <h2>Build a skill set that can move with you.</h2>
+      <p>Combine transferable capabilities, role-specific knowledge and evidence you can show.</p>
+      <div class="guide-card-footer"><span>LEARN</span><span>PRACTISE</span><span>APPLY</span></div>
+    </aside>
+  </div>
+</section>
+<div class="shell guide-layout">
+  <aside class="guide-sidebar">
+    <div class="guide-sidebar-card">
+      <p class="eyebrow">On this page</p>
+      <nav class="guide-toc" aria-label="On this page">
+        <a href="#evidence">Global evidence</a>
+        <a href="#transferable-skills">Transferable skills</a>
+        <a href="#technical-skills">Technical skills</a>
+        <a href="#skills-priorities">What to learn first</a>
+        <a href="#90-day-plan">90-day learning plan</a>
+        <a href="#choosing-courses">Choosing a course</a>
+        <a href="#proving-skills">Proving your skills</a>
+        <a href="#faqs">FAQs</a>
+      </nav>
+      <div class="guide-sidebar-rule"></div>
+      <p class="guide-sidebar-label">Explore the clusters</p>
+      <a class="guide-sidebar-cta" href="{{ '/clusters/' | relative_url }}">Browse all 12 skill areas <span aria-hidden="true">↗</span></a>
+    </div>
+  </aside>
+  <article class="prose guide-prose">
+    {{ content }}
+  </article>
+</div>

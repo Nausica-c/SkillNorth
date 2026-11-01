@@ -1,20 +1,28 @@
 {% assign matching_courses = site.data.courses | where: 'cluster', include.cluster_id %}
 {% if matching_courses.size > 0 %}
-  <div class="course-grid">
+  <div class="course-grid" aria-label="Selected Alison courses">
     {% for course in matching_courses %}
       <article class="course-card">
-        <div class="course-card-top"><span class="course-label">ALISON COURSE</span><span class="course-id">{{ course.id }}</span></div>
+        <div class="course-card-top"><span class="course-label">SELECTED ALISON COURSE</span><span class="course-id">{{ course.id }}</span></div>
         <h3>{{ course.title }}</h3>
-        <p>{{ course.summary }}</p>
-        <div class="course-meta">
-          <span>{{ course.level }}</span>
-          <span>{{ course.duration }}</span>
-          <span>{{ course.credential_type }}</span>
+        <p class="course-summary">{{ course.summary }}</p>
+        <dl class="course-facts">
+          <div><dt>Level</dt><dd>{{ course.level | default: 'Check Alison page' }}</dd></div>
+          <div><dt>Estimated study time</dt><dd>{{ course.duration | default: 'Not listed' }}</dd></div>
+          <div><dt>Course type</dt><dd>{{ course.credential_type | default: 'Check Alison page' }}</dd></div>
+        </dl>
+        <div class="course-credential-row">
+          {% if course.cpd_accredited == true %}<span class="course-status">CPD-accredited</span>{% else %}<span class="course-status course-status-muted">CPD status not confirmed</span>{% endif %}
+          <span class="course-languages">{% if course.languages and course.languages.size > 0 %}{{ course.languages | join: ' · ' }}{% else %}Languages not confirmed{% endif %}</span>
         </div>
-        <p class="course-language">Languages: {{ course.languages | join: ", " }}{% if course.cpd_accredited %} · CPD-accredited{% endif %}</p>
-        <p class="course-search-tip">On Alison, search this exact course title after opening the partner link.</p>
-        <a class="text-link" href="{{ site.affiliate.alison_url }}" target="_blank" rel="{{ site.affiliate.rel }}">Find this course on Alison <span aria-hidden="true">↗</span></a>
+        {% if course.data_note %}<p class="course-data-note">{{ course.data_note }}</p>{% endif %}
+        <div class="course-card-action">
+          <p class="course-search-tip">The partner link opens Alison. Search for the exact course title shown above to find this course.</p>
+          <a class="course-button" href="{{ site.affiliate.alison_url }}" target="_blank" rel="{{ site.affiliate.rel }}" aria-label="Open Alison to find {{ course.title | escape }}">Find this course on Alison <span aria-hidden="true">↗</span></a>
+        </div>
       </article>
     {% endfor %}
   </div>
+{% else %}
+  <p class="course-empty">No course starting points are currently listed for this cluster. Check back after the next course review.</p>
 {% endif %}

@@ -8,7 +8,11 @@
 - [x] Affiliate disclosure included in footer and dedicated page.
 - [x] Review dates and caveats included.
 - [x] GitHub Actions workflow included.
-- [ ] Owner adds public contact email.
-- [ ] Owner reviews privacy notice and legal requirements before launch.
-- [ ] Owner confirms GitHub account/repository settings and publishes the repository.
-- [ ] Owner switches `launch_mode` to `false` after final review.
+- [x] `launch_mode: false` enables index/follow metadata on public pages.
+- [x] Project-level `robots.txt` file generated; note that GitHub Pages serves it below `/SkillNorth/`, not at the host root.
+- [ ] Owner submits the sitemap URL directly in Google Search Console after deployment.
+- [x] Privacy notice updated to describe the current static GitHub Pages setup and affiliate outbound links.
+- [x] Public contact email `skillnorthsite@gmail.com` configured and displayed on Contact page/footer.
+- [ ] Owner adds publisher/operator identity where required.
+- [ ] Owner reviews privacy and legal requirements for the countries served.
+- [ ] Owner confirms GitHub repository settings, deploys the site and verifies the live sitemap/canonical/robots output.

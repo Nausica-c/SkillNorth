@@ -9,8 +9,8 @@ permalink: /
     <div class="home-hero-copy">
       <p class="eyebrow eyebrow-light">FUTURE-READY LEARNING · MADE PRACTICAL</p>
       <h1>Build skills<br><em>that move</em> with you.</h1>
-      <p class="home-lead">A clearer way to explore online learning. Find practical skill clusters, compare starting points and choose what to learn next.</p>
-      <div class="hero-actions"><a class="button button-lime" href="{{ '/clusters/' | relative_url }}">Explore skill clusters <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="{{ '/how-we-select/' | relative_url }}">How we select courses</a></div>
+      <p class="home-lead">Understand which skills matter for a changing world of work, explore practical learning areas and choose a useful next step.</p>
+      <div class="hero-actions"><a class="button button-lime" href="{{ '/guides/essential-skills-for-2027/' | relative_url }}">Start with the 2027 Skills Guide <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="{{ '/clusters/' | relative_url }}">Explore skill clusters</a></div>
       <p class="hero-microcopy">Independent guides · Practical learning · No career guarantees</p>
     </div>
     <div class="hero-visual">
@@ -29,6 +29,10 @@ permalink: /
 </section>
 <section class="dark-callout">
   <div class="shell dark-callout-grid"><div><p class="eyebrow eyebrow-light">A simple learning philosophy</p><h2>Don't collect courses.<br><em>Build capability.</em></h2></div><div class="callout-copy"><p>A course is a useful input—not the outcome. The best next step is one you can connect to practice, a small project or a real problem in your work.</p><a class="text-link text-link-light" href="{{ '/how-we-select/' | relative_url }}">See how SkillNorth evaluates courses <span aria-hidden="true">↗</span></a></div></div>
+</section>
+<section class="section shell feature-guide">
+  <div class="section-heading section-heading-large"><div><p class="eyebrow">Featured guide · 2027</p><h2>The skills that will move your work forward.</h2></div><p>Explore the workplace capabilities worth building in 2027—from AI literacy and critical thinking to data, communication and specialist skills. Includes a practical 90-day learning plan.</p></div>
+  <a class="button button-dark" href="{{ '/guides/essential-skills-for-2027/' | relative_url }}">Read the essential skills guide <span aria-hidden="true">↗</span></a>
 </section>
 <section class="section shell why-section">
   <div class="section-heading"><div><p class="eyebrow">The SkillNorth approach</p><h2>Clarity before credentials.</h2></div><p>We help you understand what a course covers, where it fits and what it cannot do for you.</p></div>

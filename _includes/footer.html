@@ -7,8 +7,8 @@
       </a>
       <p>Independent learning guides for people building useful skills in a changing world of work.</p>
     </div>
-    <div><h2>Explore</h2><a href="{{ '/clusters/' | relative_url }}">Skill clusters</a><a href="{{ '/how-we-select/' | relative_url }}">How we select courses</a><a href="{{ '/about/' | relative_url }}">About SkillNorth</a></div>
-    <div><h2>Transparency</h2><a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate disclosure</a><a href="{{ '/privacy/' | relative_url }}">Privacy notice</a><a href="{{ '/contact/' | relative_url }}">Contact</a></div>
+    <div><h2>Explore</h2><a href="{{ '/guides/essential-skills-for-2027/' | relative_url }}">Essential Skills for 2027</a><a href="{{ '/clusters/' | relative_url }}">Skill clusters</a><a href="{{ '/how-we-select/' | relative_url }}">How we select courses</a><a href="{{ '/about/' | relative_url }}">About SkillNorth</a></div>
+    <div><h2>Transparency</h2><a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate disclosure</a><a href="{{ '/privacy/' | relative_url }}">Privacy notice</a><a href="{{ '/contact/' | relative_url }}">Contact</a>{% if site.contact_email and site.contact_email contains '@' %}<a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>{% endif %}</div>
   </div>
   <div class="shell footer-bottom">
     <span>© {{ 'now' | date: '%Y' }} SkillNorth. Independent editorial project.</span>

@@ -1,0 +1,48 @@
+- id: ai
+  focus: AI literacy, responsible use and automation
+  copy: This cluster develops the AI literacy and technology judgement highlighted in the 2027 guide. Start with
+    concepts and responsible use, then practise one low-risk workflow.
+- id: data
+  focus: Data literacy and evidence-based decisions
+  copy: Data literacy is one of the transferable foundations in the 2027 guide. Build confidence with clean data,
+    spreadsheet logic and clear explanations before adding specialist tools.
+- id: cyber
+  focus: Digital fluency and information protection
+  copy: The 2027 guide treats digital safety as a shared workplace capability. This cluster helps you understand
+    the security habits and technical foundations behind that responsibility.
+- id: software
+  focus: Programming foundations and technical problem-solving
+  copy: Programming is a specialist skill to add when it fits your direction. The 2027 guide recommends pairing
+    technical depth with problem-solving, testing and the ability to explain your work.
+- id: business
+  focus: Critical thinking, commercial awareness and business judgement
+  copy: The 2027 guide emphasises judgement over trend-chasing. Business analysis gives you a practical way to frame
+    problems, compare options and make evidence-based recommendations.
+- id: project
+  focus: Planning, coordination and risk awareness
+  copy: Project and operations skills turn ideas into delivery. They connect directly to the 2027 guide’s focus
+    on problem-solving, communication, adaptability and responsible decisions.
+- id: marketing
+  focus: Digital channels, audience insight and measurement
+  copy: Digital marketing combines digital fluency, communication and data literacy. The 2027 guide encourages learners
+    to connect tools with audience needs and measurable outcomes.
+- id: finance
+  focus: Financial literacy, accuracy and risk-aware decisions
+  copy: Financial understanding strengthens business and data decisions. This cluster offers foundations for interpreting
+    accounts and communicating what the numbers mean—and what they do not.
+- id: leadership
+  focus: Communication, collaboration and people skills
+  copy: The 2027 guide identifies communication and collaboration as transferable capabilities. Leadership and HR
+    learning gives you a setting to practise feedback, listening and fair people processes.
+- id: health
+  focus: Empathy, communication and responsible care
+  copy: Human-centred work depends on communication, empathy and sound judgement. The 2027 guide recognises these
+    as important capabilities while reminding learners to respect regulated professional requirements.
+- id: education
+  focus: Learning agility, teaching and knowledge sharing
+  copy: Learning agility is a core theme in the 2027 guide. Teaching and education topics help you understand how
+    people learn, practise and receive feedback.
+- id: engineering
+  focus: Technical foundations and sustainability awareness
+  copy: The 2027 guide includes green and sustainability skills alongside digital capabilities. This cluster introduces
+    selected engineering and solar-energy topics while distinguishing awareness from professional authorisation.

@@ -9,8 +9,8 @@ markdown: kramdown
 permalink: pretty
 future: false
 strict_front_matter: true
-launch_mode: true
-contact_email: ""
+launch_mode: false
+contact_email: "skillnorthsite@gmail.com"
 
 # Keep the affiliate destination here. Every commercial CTA reads this single value.
 affiliate:
@@ -55,4 +55,4 @@ include:
 sass:
   style: compressed
 
-# The initial build is intentionally noindex while the owner reviews contact and legal details.
+# Public launch mode: search engines may crawl and index public content.

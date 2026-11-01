@@ -2,17 +2,20 @@
 layout: page
 title: Contact SkillNorth
 kicker: GET IN TOUCH
-description: Contact details for questions, corrections and course-page updates.
+description: Contact information for editorial questions, factual corrections and course-page updates.
 permalink: /contact/
 ---
-## Corrections and course updates
 
-Found a course that has moved, changed its title or no longer matches the description? We welcome factual corrections and suggestions for future skill clusters.
+## Corrections, questions and collaborations
 
-The public contact address has not yet been configured. Add it to `contact_email` in `_config.yml`; this page will display it automatically once supplied.
+If you notice that a course has moved, changed its title or no longer matches the description, please contact SkillNorth. We also welcome thoughtful questions, feedback and collaboration enquiries about our learning guides.
 
 {% if site.contact_email and site.contact_email contains '@' %}
 **Email:** [{{ site.contact_email }}](mailto:{{ site.contact_email }})
 {% else %}
-<div class="caution-note"><strong>Before launch:</strong> set `contact_email` in `_config.yml` and review this page.</div>
+Please use the contact details published on this page when they become available. Do not send sensitive personal information through public repository comments or issues.
 {% endif %}
+
+This is SkillNorth’s public project contact address. Please do not send passwords, payment details, identity documents or other sensitive information by ordinary email.
+
+For course enrolment, certificates, learner accounts or other platform-specific questions, contact Alison directly through its official website. SkillNorth cannot access or manage Alison learner accounts.

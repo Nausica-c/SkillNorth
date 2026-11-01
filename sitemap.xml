@@ -6,6 +6,7 @@ permalink: /sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{{ '/' | absolute_url }}</loc></url>
   <url><loc>{{ '/clusters/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/guides/essential-skills-for-2027/' | absolute_url }}</loc></url>
   {% for cluster in site.data.clusters %}<url><loc>{{ '/clusters/' | append: cluster.slug | append: '/' | absolute_url }}</loc></url>{% endfor %}
   <url><loc>{{ '/about/' | absolute_url }}</loc></url>
   <url><loc>{{ '/how-we-select/' | absolute_url }}</loc></url>
