@@ -27,27 +27,31 @@ For HR002, the Alison announcement dated 21 September 2026 identifies the course
 - Optional certificates/diplomas may be paid even though course study is free; retain the site's existing pricing disclosure.
 - Review the course page again before publication because course details can change.
 
-## Official pages checked
+## Course destinations configured in SkillNorth
 
-- https://alison.com/course/introduction-to-artificial-intelligence-ai
-- https://alison.com/course/diploma-in-fundamentals-of-artificial-intelligence
-- https://alison.com/course/machine-learning-with-artificial-intelligence
-- https://alison.com/course/basics-of-data-analysis-with-excel
-- https://alison.com/course/diploma-in-cyber-security
-- https://alison.com/course/introduction-to-programming-with-python-revised
-- https://alison.com/course/diploma-in-c-programming-revised-2017
-- https://alison.com/course/essentials-of-management-consulting
-- https://alison.com/course/diploma-in-project-management-revised-2017
-- https://alison.com/course/digital-marketing-overview
-- https://alison.com/course/ai-driven-digital-marketing-strategies
-- https://alison.com/course/financial-accounting-basics
-- https://alison.com/course/diploma-in-human-resources-hr
-- https://alison.com/course/communication-skills-for-managers
-- https://alison.com/course/diploma-in-health-and-social-care
-- https://alison.com/course/diploma-in-educational-psychology-revised-2017
-- https://alison.com/course/diploma-in-effective-teaching-principles-for-the-21st-century
-- https://alison.com/course/solar-energy-solar-technology-and-its-use-worldwide
-- https://alison.com/course/diploma-in-solar-energy
+The repository now stores the exact course-specific affiliate destination supplied by the site owner in the updated `courses.yml` for each of the 19 course records. These tracked destinations are used by the public course cards and mirrored in the CSV inventory.
+
+## Tracked course URLs configured in the repository
+
+- https://alison.com/course/introduction-to-artificial-intelligence-ai?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-fundamentals-of-artificial-intelligence?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/machine-learning-with-artificial-intelligence?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/basics-of-data-analysis-with-excel?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-cyber-security?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/introduction-to-programming-with-python-revised?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-c-programming-revised-2017?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/essentials-of-management-consulting?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-project-management-revised-2017?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/digital-marketing-overview?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/ai-driven-digital-marketing-strategies?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/financial-accounting-basics?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-human-resources-hr?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/communication-skills-for-managers?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-health-and-social-care?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-educational-psychology-revised-2017?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-effective-teaching-principles-for-the-21st-century?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/solar-energy-solar-technology-and-its-use-worldwide?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+- https://alison.com/course/diploma-in-solar-energy?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
 
 Additional Alison announcement used for HR002:
 https://alison.com/press-room/new-courses-%26-content-updates/alison-launches-free-online-course-on-communication-skills-for-managers
