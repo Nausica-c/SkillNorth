@@ -12,13 +12,13 @@ An independent, English-language learning and career-skills guide built with Jek
 - GitHub Actions deployment workflow for GitHub Pages.
 - Alison platform review and cluster map under `docs/` (excluded from the public build).
 
-## Affiliate URL
+## Affiliate links
 
-The requested link is already set in `_config.yml` under `affiliate.alison_url`:
+The general Alison destination remains centrally configured in `_config.yml` under `affiliate.alison_url`:
 
 `https://alison.com/?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349`
 
-All commercial buttons reference `site.affiliate.alison_url`. The build deliberately does not invent individual course-specific affiliate deeplinks. Alison's affiliate help explains that affiliates can generate links for individual pages from the Alison affiliate interface. If you later generate those links, add the exact verified URLs to `_data/courses.yml` and update the course-card include to use them.
+Each of the 19 records in `_data/courses.yml` now contains the exact course-specific affiliate URL supplied by the site owner in the latest `courses.yml` file. The public course-card component uses `course.course_page`, so every course card opens its own tracked Alison course page. General-purpose Alison CTAs continue to use `site.affiliate.alison_url`. The same course-specific destinations are mirrored in `docs/content-strategy/course-inventory.csv`.
 
 ## GitHub Pages setup
 
