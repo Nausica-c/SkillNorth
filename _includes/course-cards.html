@@ -17,8 +17,12 @@
         </div>
         {% if course.data_note %}<p class="course-data-note">{{ course.data_note }}</p>{% endif %}
         <div class="course-card-action">
-          <p class="course-search-tip">The partner link opens Alison. Search for the exact course title shown above to find this course.</p>
-          <a class="course-button" href="{{ site.affiliate.alison_url }}" target="_blank" rel="{{ site.affiliate.rel }}" aria-label="Open Alison to find {{ course.title | escape }}">Find this course on Alison <span aria-hidden="true">↗</span></a>
+          <p class="course-search-tip">This tracked link opens the selected course page on Alison. Review the current course details before enrolling.</p>
+          {% if course.course_page %}
+            <a class="course-button" href="{{ course.course_page | escape }}" target="_blank" rel="{{ site.affiliate.rel }}" aria-label="View {{ course.title | escape }} on Alison">View this course on Alison <span aria-hidden="true">↗</span></a>
+          {% else %}
+            <span class="course-button course-button-disabled" aria-disabled="true">Course link unavailable</span>
+          {% endif %}
         </div>
       </article>
     {% endfor %}
