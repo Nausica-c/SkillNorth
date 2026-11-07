@@ -3,8 +3,8 @@
   cluster: ai
   level: Beginner
   duration: 4–5 hours
-  summary: A broad introduction to AI concepts, machine learning, deep learning, neural networks, NLP
-    and ethical considerations.
+  summary: A broad introduction to AI concepts, machine learning, deep learning, neural networks, NLP and ethical
+    considerations.
   course_page: https://alison.com/course/introduction-to-artificial-intelligence-ai?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -19,9 +19,8 @@
   cluster: ai
   level: Advanced
   duration: 10–15 hours
-  summary: A more technical introduction to AI foundations, heuristics, knowledge representation, planning
-    and problem-solving. Alison labels it Advanced and notes that relevant programming and computer-science
-    background is useful.
+  summary: A more technical introduction to AI foundations, heuristics, knowledge representation, planning and problem-solving.
+    Alison labels it Advanced and notes that relevant programming and computer-science background is useful.
   course_page: https://alison.com/course/diploma-in-fundamentals-of-artificial-intelligence?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Diploma
@@ -35,8 +34,7 @@
   cluster: ai
   level: Advanced
   duration: 10–15 hours
-  summary: A course option for learners who want to explore the relationship between machine learning
-    and AI.
+  summary: A course option for learners who want to explore the relationship between machine learning and AI.
   course_page: https://alison.com/course/machine-learning-with-artificial-intelligence?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -50,8 +48,8 @@
   cluster: data
   level: Advanced
   duration: 3–4 hours
-  summary: Covers Excel data handling, formulas, functions and data cleaning. Alison currently labels
-    this course Advanced.
+  summary: Covers Excel data handling, formulas, functions and data cleaning. Alison currently labels this course
+    Advanced.
   course_page: https://alison.com/course/basics-of-data-analysis-with-excel?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -61,13 +59,82 @@
   cpd_accredited: true
   career_ids: []
   learning_path_ids: []
+- id: DATA002
+  title: Introduction to Data Analytics Using Microsoft Power BI
+  cluster: data
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Introduces Power BI Desktop and Online, data transformation, interactive visualisations, reports, dashboards
+    and sharing results.
+  course_page: https://alison.com/course/introduction-to-data-analytics-using-microsoft-power-bi?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays Beginner level, an estimated 1.5–3 hours, English and Spanish, and CPD accreditation.
+  career_ids: []
+  learning_path_ids: []
+- id: CLOUD001
+  title: Cloud Computing for Absolute Beginners
+  cluster: cyber
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Introduces cloud computing, public and private clouds, service models, virtualisation, scaling, IaaS
+    pricing and common use cases.
+  course_page: https://alison.com/course/cloud-computing-for-absolute-beginners-iaas?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  data_note: Alison displays Beginner level, an estimated 1.5–3 hours, English and CPD accreditation on the reviewed
+    course page.
+  career_ids: []
+  learning_path_ids: []
+- id: CLOUD002
+  title: Advanced Diploma in Cloud Computing for Amazon Web Services
+  cluster: cyber
+  level: Intermediate
+  duration: 20–30 hours
+  summary: Covers AWS cloud services and concepts including accounts, identity and access management, security groups,
+    instance lifecycles, DynamoDB, Lambda and disaster recovery.
+  course_page: https://alison.com/course/advanced-diploma-in-cloud-computing-for-amazon-web-services?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Diploma
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays Intermediate level, an estimated 20–30 hours, English and Spanish, and CPD accreditation.
+    This is an Alison course, not an AWS-issued certification.
+  career_ids: []
+  learning_path_ids: []
+- id: CLOUD003
+  title: Google Cloud Computing Foundations
+  cluster: cyber
+  level: Not listed
+  duration: 4–5 hours
+  summary: Introduces Google Cloud Platform, compute options, storage models, managed application services, cloud
+    security and managed big-data services.
+  course_page: https://alison.com/course/google-cloud-computing-foundation?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  data_note: Alison displays an estimated 4–5 hours, English and CPD accreditation. A course level was not confirmed
+    in the reviewed page, so it is recorded as Not listed.
+  career_ids: []
+  learning_path_ids: []
 - id: CYBER001
   title: Diploma in Cyber Security
   cluster: cyber
   level: Beginner
   duration: 6–10 hours
-  summary: Introduces cyber threats, vulnerability assessment, operating-system hardening, network security,
-    cloud and mobile security.
+  summary: Introduces cyber threats, vulnerability assessment, operating-system hardening, network security, cloud
+    and mobile security.
   course_page: https://alison.com/course/diploma-in-cyber-security?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Diploma
@@ -75,6 +142,24 @@
   - English
   - Spanish
   cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: CYBER002
+  title: Introduction to Computer Network Security
+  cluster: cyber
+  level: Not listed
+  duration: 1.5–3 hours
+  summary: Introduces network-security principles, risk management, physical security, authentication and user permissions
+    in Windows environments.
+  course_page: https://alison.com/course/introduction-to-computer-network-security-revised?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays an estimated 1.5–3 hours, English and Spanish, and CPD accreditation. A course level
+    was not confirmed in the reviewed page.
   career_ids: []
   learning_path_ids: []
 - id: SOFT001
@@ -111,8 +196,8 @@
   cluster: business
   level: Beginner
   duration: 1.5–3 hours
-  summary: Introduces organisational analysis, client needs, frameworks such as SWOT and PESTLE, KPIs
-    and improvement strategies.
+  summary: Introduces organisational analysis, client needs, frameworks such as SWOT and PESTLE, KPIs and improvement
+    strategies.
   course_page: https://alison.com/course/essentials-of-management-consulting?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -137,13 +222,30 @@
   cpd_accredited: true
   career_ids: []
   learning_path_ids: []
+- id: PROJ002
+  title: Agile Project Management
+  cluster: project
+  level: Not listed
+  duration: 1.5–3 hours
+  summary: Explains Agile values and principles, continuous feedback, iterative improvement and when Agile approaches
+    may suit a project better than traditional methods.
+  course_page: https://alison.com/course/agile-project-management?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays an estimated 1.5–3 hours, English and Spanish, and CPD accreditation. A course level
+    was not confirmed in the reviewed page.
+  career_ids: []
+  learning_path_ids: []
 - id: MKT001
   title: Digital Marketing Overview
   cluster: marketing
   level: Beginner
   duration: 4–5 hours
-  summary: Introduces marketing funnels, email marketing, landing pages, webinars and digital campaign
-    basics.
+  summary: Introduces marketing funnels, email marketing, landing pages, webinars and digital campaign basics.
   course_page: https://alison.com/course/digital-marketing-overview?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -158,8 +260,8 @@
   cluster: marketing
   level: Beginner
   duration: 1.5–3 hours
-  summary: An option for exploring how AI can be incorporated into digital marketing strategy. Check the
-    live syllabus and tools covered.
+  summary: An option for exploring how AI can be incorporated into digital marketing strategy. Check the live syllabus
+    and tools covered.
   course_page: https://alison.com/course/ai-driven-digital-marketing-strategies?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -169,13 +271,31 @@
   cpd_accredited: true
   career_ids: []
   learning_path_ids: []
+- id: MKT003
+  title: Basic Concepts of Digital Marketing
+  cluster: marketing
+  level: Advanced
+  duration: 3–4 hours
+  summary: Covers digital-marketing types, search-engine optimisation, inbound marketing, B2B campaigns and the
+    role of digital marketing in business development.
+  course_page: https://alison.com/course/basic-concepts-of-digital-marketing?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Despite the word “Basic” in its title, Alison labels this course Advanced. The reviewed page displays
+    an estimated 3–4 hours, English and Spanish, and CPD accreditation.
+  career_ids: []
+  learning_path_ids: []
 - id: FIN001
   title: Financial Accounting Basics
   cluster: finance
   level: Beginner
   duration: 1.5–3 hours
-  summary: Introduces accounting principles, the chart of accounts, income statements, balance sheets
-    and cash-flow concepts.
+  summary: Introduces accounting principles, the chart of accounts, income statements, balance sheets and cash-flow
+    concepts.
   course_page: https://alison.com/course/financial-accounting-basics?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -190,8 +310,8 @@
   cluster: leadership
   level: Beginner
   duration: 10–15 hours
-  summary: Covers core HR responsibilities, recruitment, selection, training, appraisal, retention and
-    organisational culture.
+  summary: Covers core HR responsibilities, recruitment, selection, training, appraisal, retention and organisational
+    culture.
   course_page: https://alison.com/course/diploma-in-human-resources-hr?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Diploma
@@ -206,8 +326,8 @@
   cluster: leadership
   level: Intermediate
   duration: Not listed
-  summary: A CPD-accredited, intermediate-level course on clear workplace communication, active listening,
-    difficult conversations, presentations and productive meetings for managers and team leaders.
+  summary: A CPD-accredited, intermediate-level course on clear workplace communication, active listening, difficult
+    conversations, presentations and productive meetings for managers and team leaders.
   course_page: https://alison.com/course/communication-skills-for-managers?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -215,8 +335,58 @@
   - English
   cpd_accredited: true
   data_note: Alison's September 2026 course announcement identifies this course as Intermediate and CPD-accredited.
-    The reviewed course page did not display a course-specific duration or a confirmed Spanish-language
-    option.
+    The reviewed course page did not display a course-specific duration or a confirmed Spanish-language option.
+  career_ids: []
+  learning_path_ids: []
+- id: HR003
+  title: 'Human Resources: Employee Management and Training'
+  cluster: leadership
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Covers recruitment and selection, workplace diversity, employee records, HR policies and procedures,
+    pay and pensions, and workplace health and safety.
+  course_page: https://alison.com/course/human-resources-employee-management-and-training?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays Beginner level, an estimated 1.5–3 hours, English and Spanish, and CPD accreditation.
+  career_ids: []
+  learning_path_ids: []
+- id: HR004
+  title: Human Talent Management
+  cluster: leadership
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Introduces talent acquisition and retention, onboarding, employee engagement, management skills and the
+    connection between business and HR strategy.
+  course_page: https://alison.com/course/human-talent-management?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  data_note: Alison displays Beginner level, an estimated 1.5–3 hours, English and CPD accreditation.
+  career_ids: []
+  learning_path_ids: []
+- id: LEAD001
+  title: Emotional Intelligence for Effective Leadership
+  cluster: leadership
+  level: Not listed
+  duration: 1.5–3 hours
+  summary: Explores emotional intelligence in leadership, including self-awareness, self-regulation, decision-making,
+    relationship management and conflict resolution.
+  course_page: https://alison.com/course/emotional-intelligence-for-effective-leadership?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays an estimated 1.5–3 hours, English and Spanish, and CPD accreditation. A course level
+    was not confirmed in the reviewed page.
   career_ids: []
   learning_path_ids: []
 - id: CARE001
@@ -224,8 +394,8 @@
   cluster: health
   level: Advanced
   duration: 10–15 hours
-  summary: Covers responsibilities in health and social care, ethics, communication, mental-health support
-    and infection prevention.
+  summary: Covers responsibilities in health and social care, ethics, communication, mental-health support and infection
+    prevention.
   course_page: https://alison.com/course/diploma-in-health-and-social-care?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Diploma
@@ -240,8 +410,8 @@
   cluster: education
   level: Beginner
   duration: 10–15 hours
-  summary: Introduces educational psychology and learning theory, including behaviourism and constructivism,
-    and how these ideas can inform teaching practice.
+  summary: Introduces educational psychology and learning theory, including behaviourism and constructivism, and
+    how these ideas can inform teaching practice.
   course_page: https://alison.com/course/diploma-in-educational-psychology-revised-2017?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Diploma
@@ -256,8 +426,8 @@
   cluster: education
   level: Advanced
   duration: 10–15 hours
-  summary: An advanced diploma covering contemporary teaching principles, curriculum and assessment, the
-    ADDIE model, Bloom’s revised taxonomy and approaches to learner engagement.
+  summary: An advanced diploma covering contemporary teaching principles, curriculum and assessment, the ADDIE model,
+    Bloom’s revised taxonomy and approaches to learner engagement.
   course_page: https://alison.com/course/diploma-in-effective-teaching-principles-for-the-21st-century?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Diploma
@@ -271,8 +441,7 @@
   cluster: engineering
   level: Beginner
   duration: 1.5–3 hours
-  summary: Introduces solar energy uses, photovoltaic systems, adoption barriers and the role of policy
-    and communities.
+  summary: Introduces solar energy uses, photovoltaic systems, adoption barriers and the role of policy and communities.
   course_page: https://alison.com/course/solar-energy-solar-technology-and-its-use-worldwide?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
   reviewed: '2026-11-01'
   credential_type: Certificate
@@ -296,5 +465,55 @@
   - English
   - Spanish
   cpd_accredited: true
+  career_ids: []
+  learning_path_ids: []
+- id: ENG003
+  title: Environmental Sustainability Concepts
+  cluster: engineering
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Builds a foundation in environmental, social and economic sustainability, resource use, pollution, climate
+    change, habitat loss, waste, transport and sustainable communities.
+  course_page: https://alison.com/course/environmental-sustainability-concepts?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  data_note: Alison displays Beginner level, an estimated 1.5–3 hours, English and CPD accreditation.
+  career_ids: []
+  learning_path_ids: []
+- id: ENG004
+  title: ESG and Sustainability Fundamentals
+  cluster: engineering
+  level: Beginner
+  duration: 3–4 hours
+  summary: Introduces ESG components and frameworks, the Greenhouse Gas Protocol, reporting challenges and the steps
+    involved in preparing ESG reports.
+  course_page: https://alison.com/course/esg-and-sustainability-fundamentals?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  data_note: Alison displays Beginner level, an estimated 3–4 hours, English and CPD accreditation. The course page
+    identifies it as recently published at the time of review.
+  career_ids: []
+  learning_path_ids: []
+- id: ENG005
+  title: Renewable Energy Fundamentals
+  cluster: engineering
+  level: Beginner
+  duration: 1.5–3 hours
+  summary: Surveys renewable-energy sources including solar, wind, ocean, biomass and geothermal energy, with attention
+    to grid integration and technology trade-offs.
+  course_page: https://alison.com/course/renewable-energy-fundamentals?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays Beginner level, an estimated 1.5–3 hours, English and Spanish, and CPD accreditation.
   career_ids: []
   learning_path_ids: []

@@ -17,7 +17,7 @@ Technical indexation is enabled, but search engines decide whether and when to i
 
 After pushing to `main` and allowing the GitHub Actions workflow to deploy, verify:
 
-1. `https://nausica-20.github.io/SkillNorth/sitemap.xml` loads and lists the canonical site URLs.
+1. `https://nausica-c.github.io/SkillNorth/sitemap.xml` loads and lists the canonical site URLs.
 2. The homepage, 2027 pillar and hub pages contain `meta name="robots" content="index,follow,max-image-preview:large"`.
-3. Their canonical links resolve to the `https://nausica-20.github.io/SkillNorth/` project-site URLs.
+3. Their canonical links resolve to the `https://nausica-c.github.io/SkillNorth/` project-site URLs.
 4. Submit the sitemap URL directly in Google Search Console. Do not rely on the project-subdirectory `robots.txt` as the host-level crawl policy.

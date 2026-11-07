@@ -7,6 +7,8 @@ permalink: /sitemap.xml
   <url><loc>{{ '/' | absolute_url }}</loc></url>
   <url><loc>{{ '/clusters/' | absolute_url }}</loc></url>
   <url><loc>{{ '/guides/essential-skills-for-2027/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/articles/' | absolute_url }}</loc></url>
+  {% for article in site.data.articles %}<url><loc>{{ article.url | absolute_url }}</loc></url>{% endfor %}
   {% for cluster in site.data.clusters %}<url><loc>{{ '/clusters/' | append: cluster.slug | append: '/' | absolute_url }}</loc></url>{% endfor %}
   <url><loc>{{ '/about/' | absolute_url }}</loc></url>
   <url><loc>{{ '/how-we-select/' | absolute_url }}</loc></url>

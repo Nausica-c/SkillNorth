@@ -1,0 +1,213 @@
+- id: '01'
+  slug: ai-skills-for-work-2027
+  title: 'AI Skills for Work in 2027: What to Learn Beyond Prompting'
+  url: /articles/ai-skills-for-work-2027/
+  description: Build practical AI literacy, understand the basics behind modern AI systems and learn how to check
+    outputs before using them at work.
+  kicker: PRACTICAL GUIDE · AI & MACHINE LEARNING
+  cluster_ids:
+  - ai
+  reading_time: 8 min
+  primary_keyword: AI skills for work
+  priority: core
+  course_ids:
+  - AI001
+  - AI002
+  - AI003
+- id: '02'
+  slug: data-analysis-with-excel-beginners
+  title: 'Data Analysis with Excel: A Practical Starting Point for 2027'
+  url: /articles/data-analysis-with-excel-beginners/
+  description: Compare Excel and Power BI as practical starting points for organising, analysing and explaining
+    data.
+  kicker: PRACTICAL GUIDE · DATA ANALYTICS & EXCEL
+  cluster_ids:
+  - data
+  reading_time: 7 min
+  primary_keyword: data analysis with Excel
+  priority: core
+  course_ids:
+  - DATA001
+  - DATA002
+- id: '03'
+  slug: cybersecurity-skills-for-beginners-2027
+  title: 'Cybersecurity Skills for Beginners in 2027: Start with the Fundamentals'
+  url: /articles/cybersecurity-skills-for-beginners-2027/
+  description: Learn cyber-risk and network-security foundations, then explore the cloud concepts behind modern
+    IT infrastructure.
+  kicker: PRACTICAL GUIDE · CYBERSECURITY & IT
+  cluster_ids:
+  - cyber
+  reading_time: 7 min
+  primary_keyword: cybersecurity skills for beginners
+  priority: core
+  course_ids:
+  - CYBER001
+  - CYBER002
+  - CLOUD001
+  - CLOUD002
+  - CLOUD003
+- id: '04'
+  slug: cloud-computing-skills-2027
+  title: 'Cloud Computing Skills in 2027: A Beginner’s Guide to AWS and Google Cloud'
+  url: /articles/cloud-computing-skills-2027/
+  description: Understand cloud service models, infrastructure, identity, security and the first steps into AWS
+    or Google Cloud.
+  kicker: PRACTICAL GUIDE · CLOUD COMPUTING & IT INFRASTRUCTURE
+  cluster_ids:
+  - cyber
+  course_ids:
+  - CLOUD001
+  - CLOUD003
+  - CLOUD002
+  reading_time: 8 min
+  primary_keyword: cloud computing skills for beginners
+  priority: core
+- id: '05'
+  slug: project-management-skills-2027
+  title: 'Project Management Skills for 2027: Plan Work, Manage Risk and Deliver Clearly'
+  url: /articles/project-management-skills-2027/
+  description: Understand the building blocks of project delivery and practise them on a small, clearly scoped project.
+  kicker: PRACTICAL GUIDE · PROJECT & OPERATIONS MANAGEMENT
+  cluster_ids:
+  - project
+  reading_time: 7 min
+  primary_keyword: project management skills
+  priority: core
+  course_ids:
+  - PROJ001
+  - PROJ002
+- id: '06'
+  slug: digital-marketing-skills-2027
+  title: 'Digital Marketing Skills in 2027: Strategy, Content, Measurement and AI'
+  url: /articles/digital-marketing-skills-2027/
+  description: Build a sound digital marketing foundation by connecting audience needs, channel choices, content
+    and measurable goals.
+  kicker: PRACTICAL GUIDE · DIGITAL MARKETING & E-COMMERCE
+  cluster_ids:
+  - marketing
+  reading_time: 8 min
+  primary_keyword: digital marketing skills
+  priority: core
+  course_ids:
+  - MKT001
+  - MKT002
+  - MKT003
+- id: '07'
+  slug: renewable-energy-solar-skills-2027
+  title: 'Sustainability and Renewable Energy Skills in 2027: From ESG to Solar Technology'
+  url: /articles/renewable-energy-solar-skills-2027/
+  description: Explore environmental sustainability, ESG reporting and renewable-energy foundations, then choose
+    a learning direction that matches your interests.
+  kicker: PRACTICAL GUIDE · ENGINEERING & SUSTAINABLE SKILLS
+  cluster_ids:
+  - engineering
+  reading_time: 7 min
+  primary_keyword: renewable energy skills
+  priority: core
+  course_ids:
+  - ENG003
+  - ENG004
+  - ENG005
+  - ENG001
+  - ENG002
+- id: 08
+  slug: communication-skills-for-managers-2027
+  title: 'Communication Skills for Managers in 2027: Lead Clearer Conversations'
+  url: /articles/communication-skills-for-managers-2027/
+  description: Learn how managers can communicate expectations, listen actively, handle difficult conversations
+    and make meetings more useful.
+  kicker: PRACTICAL GUIDE · LEADERSHIP & COMMUNICATION
+  cluster_ids:
+  - leadership
+  reading_time: 7 min
+  primary_keyword: communication skills for managers
+  priority: core
+  course_ids:
+  - HR002
+  - LEAD001
+- id: 09
+  slug: human-resources-skills-foundations
+  title: 'Human Resources Skills: A Practical Foundation for 2027'
+  url: /articles/human-resources-skills-foundations/
+  description: Explore the foundations of HR work and the knowledge that supports fair, organised and people-focused
+    workplace processes.
+  kicker: PRACTICAL GUIDE · HUMAN RESOURCES
+  cluster_ids:
+  - leadership
+  reading_time: 7 min
+  primary_keyword: human resources skills
+  priority: core
+  course_ids:
+  - HR001
+  - HR003
+  - HR004
+- id: '10'
+  slug: 90-day-upskilling-plan-2027
+  title: 'How to Build a Career-Ready Skill Set in 90 Days: A 2027 Learning Plan'
+  url: /articles/90-day-upskilling-plan-2027/
+  description: Use a practical 30-60-90-day plan to choose one skill direction, select relevant courses, practise
+    consistently and document what you can do.
+  kicker: PRACTICAL GUIDE · CAREER DEVELOPMENT
+  cluster_ids:
+  - ai
+  - data
+  - cyber
+  - software
+  - business
+  - project
+  - marketing
+  - finance
+  - leadership
+  - health
+  - education
+  - engineering
+  reading_time: 9 min
+  primary_keyword: 90-day upskilling plan
+  priority: core
+  course_ids:
+  - AI001
+  - DATA001
+  - DATA002
+  - CYBER001
+  - CYBER002
+  - CLOUD001
+  - CLOUD002
+  - CLOUD003
+  - SOFT001
+  - SOFT002
+  - BIZ001
+  - PROJ001
+  - PROJ002
+  - MKT001
+  - MKT002
+  - MKT003
+  - FIN001
+  - HR001
+  - HR002
+  - LEAD001
+  - HR003
+  - HR004
+  - ENG001
+  - ENG002
+  - ENG003
+  - ENG004
+  - ENG005
+  - CARE001
+  - EDU001
+  - EDU002
+- id: '11'
+  slug: python-programming-for-beginners
+  title: 'Python Programming for Beginners: Build a Foundation You Can Practise'
+  url: /articles/python-programming-for-beginners/
+  description: A supporting guide to Python and programming fundamentals, with small exercises that complement AI,
+    data and IT learning.
+  kicker: PRACTICAL GUIDE · SOFTWARE DEVELOPMENT
+  cluster_ids:
+  - software
+  reading_time: 8 min
+  primary_keyword: Python programming for beginners
+  priority: supporting
+  course_ids:
+  - SOFT001
+  - SOFT002

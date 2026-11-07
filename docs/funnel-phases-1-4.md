@@ -20,3 +20,8 @@ All Alison CTAs continue to use the single value at `site.affiliate.alison_url` 
 ## Validation
 
 Run `bundle exec jekyll build` locally or let the included GitHub Actions workflow build the site. The current execution environment does not have Bundler/Jekyll installed, so no successful Jekyll build is claimed here.
+
+
+## Supporting content layer — 7 November 2026
+
+A 10-article core practical guide set plus one supporting Python guide has been added under `/articles/`. The index is surfaced in navigation and the homepage; the pillar links to the ten core articles; relevant cluster hubs surface their mapped articles; and the XML sitemap includes the index and each guide. Course displays use exact IDs from `_data/courses.yml` to avoid promoting catalogue items that are not in the repository. Career and learning-path links remain out of scope until canonical `careers.yml` and `learning_paths.yml` datasets and their corresponding pages exist.

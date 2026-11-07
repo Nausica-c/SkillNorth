@@ -20,7 +20,7 @@ permalink: /
   </div>
   <div class="hero-bottom-line"><span>SKILL NORTH / 2027 AND BEYOND</span><span>LEARN · PRACTISE · APPLY</span></div>
 </section>
-<section class="proof-strip"><div class="shell proof-grid"><div><strong>12</strong><span>curated skill clusters</span></div><div><strong>19</strong><span>selected course starting points</span></div><div><strong>1</strong><span>clear next step: yours</span></div></div></section>
+<section class="proof-strip"><div class="shell proof-grid"><div><strong>12</strong><span>curated skill clusters</span></div><div><strong>19</strong><span>selected course starting points</span></div><div><strong>10</strong><span>practical skill guides</span></div></div></section>
 <section class="section shell section-intro">
   <div class="section-heading section-heading-large"><div><p class="eyebrow">Explore by skill, not by hype</p><h2>Where do you want<br>to build confidence?</h2></div><p>Job titles change. Useful capabilities travel across industries. Start with the skill you want to develop, then build a learning path around it.</p></div>
   <div class="search-row"><label for="cluster-search">Find a skill cluster</label><div class="search-box"><span aria-hidden="true">⌕</span><input id="cluster-search" type="search" placeholder="Try AI, data, marketing, leadership…" autocomplete="off"><button id="clear-search" type="button" aria-label="Clear search">×</button></div><p id="search-status" aria-live="polite">Showing all 12 skill clusters.</p></div>
@@ -33,6 +33,20 @@ permalink: /
 <section class="section shell feature-guide">
   <div class="section-heading section-heading-large"><div><p class="eyebrow">Featured guide · 2027</p><h2>The skills that will move your work forward.</h2></div><p>Explore the workplace capabilities worth building in 2027—from AI literacy and critical thinking to data, communication and specialist skills. Includes a practical 90-day learning plan.</p></div>
   <a class="button button-dark" href="{{ '/guides/essential-skills-for-2027/' | relative_url }}">Read the essential skills guide <span aria-hidden="true">↗</span></a>
+</section>
+<section class="section shell home-practical-guides">
+  <div class="section-heading section-heading-large"><div><p class="eyebrow">Practical guides · 2027</p><h2>Turn a skill interest<br>into a next step.</h2></div><p>Explore focused guides that explain what to learn, how to practise and which Alison courses in our reviewed selection may be relevant.</p></div>
+  <div class="article-grid">
+    {% for article in site.data.articles limit:3 %}
+      <a class="article-card" href="{{ article.url | relative_url }}">
+        <span class="article-card-number">GUIDE {{ article.id }}</span>
+        <h3>{{ article.title }}</h3>
+        <p>{{ article.description }}</p>
+        <span class="article-card-meta">{{ article.reading_time }} read <b aria-hidden="true">↗</b></span>
+      </a>
+    {% endfor %}
+  </div>
+  <p class="article-index-link"><a class="button button-dark" href="{{ '/articles/' | relative_url }}">Browse all practical guides <span aria-hidden="true">↗</span></a></p>
 </section>
 <section class="section shell why-section">
   <div class="section-heading"><div><p class="eyebrow">The SkillNorth approach</p><h2>Clarity before credentials.</h2></div><p>We help you understand what a course covers, where it fits and what it cannot do for you.</p></div>

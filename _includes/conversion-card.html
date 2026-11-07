@@ -1,0 +1,25 @@
+{% assign featured_course = site.data.courses | where: 'id', include.course_id | first %}
+{% if featured_course and featured_course.course_page %}
+<section class="conversion-card" aria-labelledby="conversion-{{ include.course_id | downcase }}">
+  <div class="conversion-copy">
+    <p class="conversion-eyebrow">{{ include.eyebrow | default: 'YOUR NEXT LEARNING STEP' }}</p>
+    <h3 id="conversion-{{ include.course_id | downcase }}">{{ include.heading }}</h3>
+    <p class="conversion-description">{{ include.body }}</p>
+    {% if include.reason %}<p class="conversion-reason"><strong>Why this course?</strong> {{ include.reason }}</p>{% endif %}
+  </div>
+  <div class="conversion-offer">
+    <p class="conversion-offer-label">RECOMMENDED STARTING POINT</p>
+    <h4>{{ featured_course.title }}</h4>
+    <div class="conversion-facts">
+      <span>{{ featured_course.level | default: 'Check level on Alison' }}</span>
+      <span>{{ featured_course.duration | default: 'Check duration on Alison' }}</span>
+      <span>{{ featured_course.credential_type | default: 'Check course details' }}</span>
+    </div>
+    <a class="conversion-button" href="{{ featured_course.course_page | escape }}" target="_blank" rel="{{ site.affiliate.rel }}">
+      {{ include.cta | default: 'Explore this course on Alison' }} <span aria-hidden="true">↗</span>
+    </a>
+    <p class="conversion-microcopy">Review the live syllabus, level and course conditions before you enrol. Course study is advertised as free by Alison; optional certificates may involve a fee.</p>
+    <p class="conversion-disclosure">Affiliate disclosure: SkillNorth may earn a commission if you enrol or take an eligible action through this link, at no additional cost to you. <a href="{{ '/affiliate-disclosure/' | relative_url }}">How affiliate links work</a>.</p>
+  </div>
+</section>
+{% endif %}

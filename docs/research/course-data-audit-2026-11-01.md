@@ -1,57 +1,50 @@
-# SkillNorth course data audit — 1 November 2026
+# SkillNorth course data audit — 7 November 2026
 
 ## Scope
 
-The uploaded `courses.yml.txt` was reconciled against the corresponding 19 records in `_data/courses.yml` and reviewed against Alison's public course pages and course announcements on 1 November 2026.
+The original 19 records were reconciled against the uploaded course database and Alison's public course pages. A further 13 courses were checked against their live Alison course pages on 7 November 2026 and added where they meaningfully strengthened one of the ten core 2027 articles or its supporting skill hubs.
 
 ## Result
 
-- 19 course records retained; no IDs or SkillNorth cluster assignments were removed.
-- All 19 levels are now populated with Alison's displayed labels: Beginner, Intermediate or Advanced.
-- 18 course durations are populated from the course pages; `HR002` (Communication Skills for Managers) does not display a course-specific duration in the reviewed page, so the value is `Not listed` rather than an estimate.
-- Credential type, language availability and CPD accreditation have been added to the records.
-- The official display titles for AI002 and AI003 have been normalised to match Alison's live course pages.
-- `career_ids` and `learning_path_ids` have been added to every record as arrays. They remain empty because this current SkillNorth repository does not yet contain canonical `careers.yml` or `learning_paths.yml` records to reference. No speculative IDs were created.
+- 32 course records are now held in `_data/courses.yml` and mirrored in the root `courses.yml`.
+- The additional records fill the Cloud Computing, Power BI, network-security, Agile, SEO/digital-marketing, sustainability/ESG, emotional-intelligence and HR/talent-management gaps.
+- Every record contains a stable SkillNorth ID, cluster, official Alison course page and the site's existing affiliate campaign parameters.
+- Each record includes `career_ids: []` and `learning_path_ids: []`. They remain empty because this repository does not yet contain canonical `careers.yml` or `learning_paths.yml` datasets; no speculative IDs were created.
+- Where Alison did not clearly display a level on the reviewed page, the record uses `Not listed` rather than inferring one from the course title.
+- Duration is the provider's estimated study time, not a fixed deadline. Courses are self-paced.
 
-## Data convention
+## New records added on 7 November 2026
 
-`duration` is Alison's estimated study time, not a fixed deadline. Courses are self-paced. `credential_type` distinguishes Alison's Certificate and Diploma course categories. `cpd_accredited` describes the course page's CPD-accredited status and should not be interpreted as a regulated professional licence or as a guarantee of employment.
-
-For HR002, the Alison announcement dated 21 September 2026 identifies the course as Intermediate and CPD-accredited; a course-specific duration was not available in the reviewed page/announcement.
+| ID | Alison course | SkillNorth cluster |
+|---|---|---|
+| CLOUD001 | Cloud Computing for Absolute Beginners | Cybersecurity & IT Infrastructure |
+| CLOUD002 | Advanced Diploma in Cloud Computing for Amazon Web Services | Cybersecurity & IT Infrastructure |
+| CLOUD003 | Google Cloud Computing Foundations | Cybersecurity & IT Infrastructure |
+| DATA002 | Introduction to Data Analytics Using Microsoft Power BI | Data Analytics & Excel |
+| CYBER002 | Introduction to Computer Network Security | Cybersecurity & IT Infrastructure |
+| PROJ002 | Agile Project Management | Project & Operations Management |
+| MKT003 | Basic Concepts of Digital Marketing | Digital Marketing & E-commerce |
+| ENG003 | Environmental Sustainability Concepts | Engineering & Sustainable Skills |
+| ENG004 | ESG and Sustainability Fundamentals | Engineering & Sustainable Skills |
+| ENG005 | Renewable Energy Fundamentals | Engineering & Sustainable Skills |
+| LEAD001 | Emotional Intelligence for Effective Leadership | Leadership & Human Resources |
+| HR003 | Human Resources: Employee Management and Training | Leadership & Human Resources |
+| HR004 | Human Talent Management | Leadership & Human Resources |
 
 ## Important editorial safeguards
 
-- Alison's level label is reproduced as displayed, not translated into a SkillNorth promise of learner proficiency.
-- A Beginner-level course may still introduce a specialist topic; a short course is not a professional qualification by itself.
-- Health, education, finance, cybersecurity and engineering courses are informational/upskilling resources and do not replace local licensing, supervised practice or regulated qualifications.
+- Alison's displayed level is reproduced as shown. A title containing “Basics” does not mean Alison labels a course Beginner.
+- CPD accreditation is recorded from the provider page; it is not a regulated professional licence or a guarantee of employment.
+- The AWS course is published on Alison and must not be described as an AWS-issued credential.
+- Cloud, cybersecurity and engineering learning resources do not authorise learners to test live systems or perform regulated technical work.
+- ESG course content is introductory and should not be represented as legal or compliance advice.
 - Optional certificates/diplomas may be paid even though course study is free; retain the site's existing pricing disclosure.
-- Review the course page again before publication because course details can change.
+- Recheck the live course page before publication because course details, estimated durations and language availability can change.
 
-## Course destinations configured in SkillNorth
+## Affiliate destinations
 
-The repository now stores the exact course-specific affiliate destination supplied by the site owner in the updated `courses.yml` for each of the 19 course records. These tracked destinations are used by the public course cards and mirrored in the CSV inventory.
+All 32 `course_page` fields use the current SkillNorth affiliate query parameters:
 
-## Tracked course URLs configured in the repository
+`utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349`
 
-- https://alison.com/course/introduction-to-artificial-intelligence-ai?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-fundamentals-of-artificial-intelligence?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/machine-learning-with-artificial-intelligence?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/basics-of-data-analysis-with-excel?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-cyber-security?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/introduction-to-programming-with-python-revised?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-c-programming-revised-2017?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/essentials-of-management-consulting?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-project-management-revised-2017?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/digital-marketing-overview?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/ai-driven-digital-marketing-strategies?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/financial-accounting-basics?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-human-resources-hr?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/communication-skills-for-managers?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-health-and-social-care?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-educational-psychology-revised-2017?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-effective-teaching-principles-for-the-21st-century?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/solar-energy-solar-technology-and-its-use-worldwide?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-- https://alison.com/course/diploma-in-solar-energy?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
-
-Additional Alison announcement used for HR002:
-https://alison.com/press-room/new-courses-%26-content-updates/alison-launches-free-online-course-on-communication-skills-for-managers
+The links are course-specific destinations rather than a generic Alison homepage link. They are mirrored in `docs/content-strategy/course-inventory.csv` for review.

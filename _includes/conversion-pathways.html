@@ -1,0 +1,35 @@
+{% assign pathway_ai = site.data.courses | where: 'id', 'AI001' | first %}
+{% assign pathway_data = site.data.courses | where: 'id', 'DATA002' | first %}
+{% assign pathway_project = site.data.courses | where: 'id', 'PROJ001' | first %}
+<section class="conversion-pathways" aria-labelledby="conversion-pathways-title">
+  <p class="conversion-eyebrow">CHOOSE ONE CLEAR STARTING POINT</p>
+  <h3 id="conversion-pathways-title">Ready to turn your learning plan into action?</h3>
+  <p class="conversion-pathways-intro">Choose the first course that matches the skill you want to practise. You do not need to enrol in all three: start with one, complete the learning and apply it to a small project.</p>
+  <div class="conversion-pathway-grid">
+    {% if pathway_ai and pathway_ai.course_page %}
+    <article class="conversion-pathway">
+      <span class="conversion-pathway-topic">AI & DIGITAL SKILLS</span>
+      <h4>{{ pathway_ai.title }}</h4>
+      <p>Build an introductory understanding of AI before choosing a more technical direction.</p>
+      <a href="{{ pathway_ai.course_page | escape }}" target="_blank" rel="{{ site.affiliate.rel }}">Explore AI learning on Alison ↗</a>
+    </article>
+    {% endif %}
+    {% if pathway_data and pathway_data.course_page %}
+    <article class="conversion-pathway">
+      <span class="conversion-pathway-topic">DATA & REPORTING</span>
+      <h4>{{ pathway_data.title }}</h4>
+      <p>Start with beginner-level data visualisation and reporting using Power BI.</p>
+      <a href="{{ pathway_data.course_page | escape }}" target="_blank" rel="{{ site.affiliate.rel }}">Explore data learning on Alison ↗</a>
+    </article>
+    {% endif %}
+    {% if pathway_project and pathway_project.course_page %}
+    <article class="conversion-pathway">
+      <span class="conversion-pathway-topic">PROJECT & BUSINESS SKILLS</span>
+      <h4>{{ pathway_project.title }}</h4>
+      <p>Learn core concepts for defining scope, planning work and managing delivery.</p>
+      <a href="{{ pathway_project.course_page | escape }}" target="_blank" rel="{{ site.affiliate.rel }}">Explore project learning on Alison ↗</a>
+    </article>
+    {% endif %}
+  </div>
+  <p class="conversion-disclosure">Affiliate disclosure: These are affiliate links. SkillNorth may earn a commission if you enrol or take an eligible action through them, at no additional cost to you. <a href="{{ '/affiliate-disclosure/' | relative_url }}">How affiliate links work</a>.</p>
+</section>

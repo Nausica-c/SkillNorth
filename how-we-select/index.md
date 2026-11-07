@@ -25,7 +25,7 @@ SkillNorth is an independent editorial project. We organise course options into 
 - **Languages** lists the course languages that were confirmed in the reviewed Alison listing. An empty or unconfirmed language list is not expanded by inference.
 - **CPD** reports the CPD-accredited status displayed by Alison. CPD accreditation must not be read as professional licensing, statutory recognition or guaranteed employment value.
 
-At the review date, 18 of the 19 courses had a visible estimated duration. **Communication Skills for Managers (HR002)** is marked **Not listed** because no course-specific duration was shown in the material reviewed. Its level and CPD status were confirmed in Alison's September 2026 announcement.
+At the review date, 31 of the 32 courses had a visible estimated duration. **Communication Skills for Managers (HR002)** is marked **Not listed** because no course-specific duration was shown in the material reviewed. Its level and CPD status were confirmed in Alison's September 2026 announcement.
 
 ## Why the clusters differ from Alison's categories
 

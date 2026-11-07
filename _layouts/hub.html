@@ -25,6 +25,18 @@ layout: default
       <a class="text-link" href="{{ '/guides/essential-skills-for-2027/' | relative_url }}">Read the complete 2027 Skills Guide <span aria-hidden="true">↗</span></a>
     </aside>
     {{ content }}
+    {% assign related_articles = site.data.articles | where_exp: 'article', 'article.cluster_ids contains cluster.id' %}
+    {% if related_articles.size > 0 %}
+      <section class="hub-related-articles" aria-labelledby="hub-related-articles-title">
+        <p class="eyebrow">Go deeper</p>
+        <h2 id="hub-related-articles-title">Practical guides in this skill area</h2>
+        <div class="hub-article-links">
+          {% for article in related_articles %}
+            <a href="{{ article.url | relative_url }}"><span>{{ article.reading_time }} read</span><strong>{{ article.title }}</strong><b aria-hidden="true">↗</b></a>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
     <section class="learning-sequence">
       <p class="eyebrow">A practical starting sequence</p>
       <ol>{% for step in cluster.sequence %}<li>{{ step }}</li>{% endfor %}</ol>

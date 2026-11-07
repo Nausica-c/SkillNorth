@@ -60,6 +60,24 @@ The reports point in a similar direction: digital and AI capabilities are becomi
   </div>
 </section>
 
+<section class="practical-guides-section" id="practical-guides" aria-labelledby="practical-guides-title">
+  <div class="practical-guides-heading">
+    <p class="eyebrow">Continue learning</p>
+    <h2 id="practical-guides-title">Explore practical guides by skill</h2>
+    <p>Go deeper into a specific topic, understand what to practise and compare the relevant Alison course starting points in SkillNorth's current catalogue.</p>
+  </div>
+  <div class="article-grid">
+    {% for article in site.data.articles %}
+      <a class="article-card" href="{{ article.url | relative_url }}">
+        <span class="article-card-number">GUIDE {{ article.id }}</span>
+        <h3>{{ article.title }}</h3>
+        <p>{{ article.description }}</p>
+        <span class="article-card-meta">{{ article.reading_time }} read <b aria-hidden="true">↗</b></span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
 ## The transferable skills to build first {: #transferable-skills}
 
 These capabilities can support many different occupations. They are a practical foundation whether you work in administration, retail, engineering, healthcare, education, finance, operations or a technology role.

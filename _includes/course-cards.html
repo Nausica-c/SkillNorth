@@ -1,4 +1,9 @@
-{% assign matching_courses = site.data.courses | where: 'cluster', include.cluster_id %}
+{% if include.course_ids %}
+  {% assign selected_course_ids = include.course_ids | split: ',' %}
+  {% assign matching_courses = site.data.courses | where_exp: 'course', 'selected_course_ids contains course.id' %}
+{% else %}
+  {% assign matching_courses = site.data.courses | where: 'cluster', include.cluster_id %}
+{% endif %}
 {% if matching_courses.size > 0 %}
   <div class="course-grid" aria-label="Selected Alison courses">
     {% for course in matching_courses %}
@@ -17,9 +22,10 @@
         </div>
         {% if course.data_note %}<p class="course-data-note">{{ course.data_note }}</p>{% endif %}
         <div class="course-card-action">
-          <p class="course-search-tip">This tracked link opens the selected course page on Alison. Review the current course details before enrolling.</p>
+          <p class="course-search-tip">Open the live Alison page to review the syllabus, level, study time and current course conditions before choosing.</p>
           {% if course.course_page %}
-            <a class="course-button" href="{{ course.course_page | escape }}" target="_blank" rel="{{ site.affiliate.rel }}" aria-label="View {{ course.title | escape }} on Alison">View this course on Alison <span aria-hidden="true">↗</span></a>
+            <a class="course-button" href="{{ course.course_page | escape }}" target="_blank" rel="{{ site.affiliate.rel }}" aria-label="View {{ course.title | escape }} on Alison">{{ include.cta_label | default: 'Explore this course on Alison' }} <span aria-hidden="true">↗</span></a>
+            <p class="course-card-disclosure">Affiliate link: SkillNorth may earn a commission at no additional cost to you. <a href="{{ '/affiliate-disclosure/' | relative_url }}">Details</a>.</p>
           {% else %}
             <span class="course-button course-button-disabled" aria-disabled="true">Course link unavailable</span>
           {% endif %}
@@ -28,5 +34,5 @@
     {% endfor %}
   </div>
 {% else %}
-  <p class="course-empty">No course starting points are currently listed for this cluster. Check back after the next course review.</p>
+  <p class="course-empty">No matching course starting points are currently listed. Check back after the next course review.</p>
 {% endif %}

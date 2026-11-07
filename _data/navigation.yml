@@ -1,9 +1,11 @@
 primary:
-  - label: 2027 Skills Guide
-    url: /guides/essential-skills-for-2027/
-  - label: Explore clusters
-    url: /clusters/
-  - label: How we select
-    url: /how-we-select/
-  - label: About
-    url: /about/
+- label: 2027 Skills Guide
+  url: /guides/essential-skills-for-2027/
+- label: Practical guides
+  url: /articles/
+- label: Explore clusters
+  url: /clusters/
+- label: How we select
+  url: /how-we-select/
+- label: About
+  url: /about/

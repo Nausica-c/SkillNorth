@@ -44,16 +44,16 @@
   icon: ▦
   tone: blue
   summary: Turn spreadsheets and raw information into clearer analysis and better decisions.
-  description: A practical starting point for data analysis, spreadsheet skills, data cleaning and evidence-based
-    decisions using Alison learning resources.
+  description: A practical pathway through spreadsheet analysis and data visualisation, from Excel foundations to
+    Power BI dashboards.
   alison_categories:
   - Information Technology (IT)
   - Business
   topics:
   - Spreadsheet structure and data types
-  - Excel formulas and functions
-  - Data cleaning and preparation
-  - Basic analysis and interpretation
+  - Excel formulas and data cleaning
+  - Data interpretation and quality
+  - Power BI reports and dashboards
   - Explaining findings clearly
   related:
   - ai
@@ -62,12 +62,13 @@
   - software
   course_ids:
   - DATA001
+  - DATA002
   why: Data skills are useful well beyond specialist analyst roles. Operations, sales, finance, marketing and project
     teams all need people who can organise information, spot patterns and explain what the numbers do—and do not—say.
   sequence:
-  - 'Build a reliable spreadsheet foundation: tables, formulas, references and clean data.'
-  - Practise by taking a small messy dataset and documenting every change you make.
-  - Summarise the result in a simple chart or short decision note, explaining assumptions and missing information.
+  - 'Build reliable spreadsheet foundations: tables, formulas, references and clean data.'
+  - Use a small dataset to practise analysis, then explore Power BI for visual reports and dashboards.
+  - Explain the result in a short decision note, including assumptions and data limitations.
   caveat: Excel is a strong entry point, not the whole analytics stack. Depending on your goal, you may later need
     SQL, a visualisation tool, statistics or programming. Do not describe a short introductory course as professional
     analyst certification.
@@ -79,16 +80,16 @@
   icon: ⌑
   tone: coral
   summary: Learn the foundations of digital security, networks, threats and safer systems.
-  description: Explore cybersecurity and IT infrastructure learning paths, including threat awareness, network security,
-    cloud protection and ethical practice.
+  description: Explore cybersecurity, network security and cloud infrastructure fundamentals, from safer systems
+    to platform concepts in AWS and Google Cloud.
   alison_categories:
   - Information Technology (IT)
   topics:
   - Common cyber threats and attack surfaces
   - Network security and access control
   - Operating-system and account hardening
-  - Cloud and mobile security
-  - Ethics, law and responsible testing
+  - Cloud service models and infrastructure
+  - Cloud security, ethics and authorisation
   related:
   - software
   - ai
@@ -96,14 +97,18 @@
   - data
   course_ids:
   - CYBER001
-  why: Connected systems create more ways for organisations to work—and more ways for them to be disrupted. Cybersecurity
-    foundations help learners understand risks, protective controls and why security is a shared responsibility
-    across technical and non-technical teams.
+  - CYBER002
+  - CLOUD001
+  - CLOUD002
+  - CLOUD003
+  why: Connected systems and cloud services make modern organisations more flexible, but they also create security
+    and operational responsibilities. Build a foundation in networks, access, risk and cloud models before selecting
+    a specialist route.
   sequence:
   - 'Learn core security language: assets, vulnerabilities, threats, risk and controls.'
   - Understand how networks, devices, accounts and cloud services fit together.
-  - Practise safe habits in a controlled learning environment and study defensive approaches before exploring specialist
-    tracks.
+  - Choose a cloud platform or security specialism for deeper study, then practise only in an authorised lab or
+    environment.
   caveat: A self-paced course is not permission to test real systems. Only assess systems when you have explicit
     authorisation. Professional security roles may require hands-on labs, deeper technical study and separate industry
     certifications.
@@ -196,7 +201,7 @@
   - Planning, scheduling and dependencies
   - Resource allocation and budgets
   - Risk, quality and communication
-  - Monitoring, change and close-out
+  - Agile values, feedback and iterative delivery
   related:
   - business
   - leadership
@@ -204,13 +209,15 @@
   - engineering
   course_ids:
   - PROJ001
+  - PROJ002
   why: Project management is a transferable way of organising work when a goal has a deadline, constraints and multiple
     people involved. The fundamentals apply to launches, process changes, events, internal improvements and technical
     delivery.
   sequence:
   - Start with the project life cycle and learn how scope, schedule, cost and quality interact.
   - Draft a small project charter with a clear outcome, stakeholders, constraints and risks.
-  - Build a simple schedule, check progress regularly and record changes rather than relying on memory.
+  - Compare a sequential plan with an Agile approach and choose methods based on the project's uncertainty and feedback
+    needs.
   caveat: A course introduces methods; it does not automatically confer a recognised professional project-management
     certification. Check the current course page and any separate certification requirements before making a credential
     claim.
@@ -222,17 +229,17 @@
   icon: ✳
   tone: coral
   summary: Connect audience research, content, funnels, email and digital channels to measurable goals.
-  description: Explore digital marketing foundations and AI-supported strategies, from customer journeys to content,
-    email and campaign planning.
+  description: Explore digital marketing foundations, SEO, AI-supported strategy, audience research, content, email
+    and measurable campaigns.
   alison_categories:
   - Sales & Marketing
   - Business
   topics:
-  - Audience and customer research
-  - Marketing funnels and conversion stages
-  - Content and channel planning
-  - Email marketing and landing pages
-  - Responsible use of AI in marketing
+  - Audience research and customer journeys
+  - SEO and inbound marketing
+  - Content, email and social channels
+  - AI-supported marketing workflows
+  - Campaign measurement and optimisation
   related:
   - business
   - data
@@ -241,6 +248,7 @@
   course_ids:
   - MKT001
   - MKT002
+  - MKT003
   why: Digital marketing combines creative judgment with measurement. Strong practice starts by understanding an
     audience and a goal, then choosing the right message, channel and metric—not by publishing more content without
     a plan.
@@ -291,18 +299,18 @@
   icon: ◎
   tone: violet
   summary: Develop the people skills and HR foundations that help teams communicate, coordinate and grow.
-  description: Explore management communication, recruitment, employee development, performance, workplace relationships
-    and leadership practice.
+  description: Develop practical people-management skills across HR foundations, employee management, talent development,
+    manager communication and emotional intelligence.
   alison_categories:
   - Management
   - Personal Development
   - Business
   topics:
-  - Communication for managers
-  - Recruitment and selection
-  - Training and performance
-  - Conflict and feedback
-  - Leadership, motivation and change
+  - Recruitment, onboarding and employee records
+  - Talent management and retention
+  - Manager communication and active listening
+  - Emotional intelligence and conflict resolution
+  - Learning, performance and workplace culture
   related:
   - business
   - project
@@ -311,6 +319,9 @@
   course_ids:
   - HR001
   - HR002
+  - LEAD001
+  - HR003
+  - HR004
   why: Technology changes tasks, but work still happens through people. Clear communication, fair people processes
     and the ability to support teams remain useful across industries and job levels.
   sequence:
@@ -396,16 +407,16 @@
   tone: blue
   summary: Explore engineering fundamentals, construction-related knowledge and the technologies behind the energy
     transition.
-  description: A starting point for engineering and construction topics, including solar technology, renewable energy
-    and practical technical foundations.
+  description: Explore environmental sustainability, ESG reporting, renewable energy and solar technology, from
+    broad concepts to more focused technical learning.
   alison_categories:
   - Engineering & Construction
   topics:
-  - Engineering and construction fundamentals
-  - Solar energy and photovoltaic systems
-  - Energy transition and sustainability
-  - Safety and quality awareness
-  - Technical problem solving
+  - Environmental and social sustainability
+  - ESG frameworks and reporting
+  - Greenhouse Gas Protocol fundamentals
+  - Renewable energy sources and trade-offs
+  - Solar technology and photovoltaic systems
   related:
   - project
   - data
@@ -414,12 +425,17 @@
   course_ids:
   - ENG001
   - ENG002
+  - ENG003
+  - ENG004
+  - ENG005
   why: Engineering and sustainability combine technical knowledge with practical systems thinking. Learners can
     use introductory courses to understand a technology, explore a specialism or prepare better questions before
     pursuing formal technical training.
   sequence:
-  - 'Choose a focus area: energy, construction, manufacturing or another engineering discipline.'
-  - Build the underlying vocabulary and learn how the system works.
-  - Connect the theory to a practical case, while checking safety standards and local regulations.
+  - Start with environmental sustainability concepts and understand resource use, climate impacts and sustainable
+    choices.
+  - Explore ESG principles and reporting frameworks if your interest is organisational sustainability.
+  - Choose a technology focus such as renewable energy or solar, remembering that installation and engineering work
+    require appropriate training and authorisation.
   caveat: Introductory online learning does not qualify someone to perform regulated engineering, electrical or
     construction work. Safety-critical tasks require the appropriate formal training, supervision and authorisation.

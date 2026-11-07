@@ -1,7 +1,7 @@
 title: SkillNorth
 tagline: Build skills that move with you.
 description: Independent guides to practical courses and career skills for a changing world of work.
-url: "https://nausica-20.github.io"
+url: "https://nausica-c.github.io"
 baseurl: "/SkillNorth"
 lang: en
 locale: en_US
@@ -12,7 +12,7 @@ strict_front_matter: true
 launch_mode: false
 contact_email: "skillnorthsite@gmail.com"
 
-# Keep the affiliate destination here. Every commercial CTA reads this single value.
+# General Alison CTAs use this destination. Course cards use the tracked course_page in _data/courses.yml.
 affiliate:
   partner_name: Alison
   alison_url: "https://alison.com/?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349"
