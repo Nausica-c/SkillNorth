@@ -517,3 +517,54 @@
   data_note: Alison displays Beginner level, an estimated 1.5–3 hours, English and Spanish, and CPD accreditation.
   career_ids: []
   learning_path_ids: []
+- id: LIFE001
+  title: Problem Solving and Critical Thinking Skills
+  cluster: leadership
+  level: Beginner
+  duration: 3–4 hours
+  summary: Develops practical critical-thinking and problem-solving skills, including evaluating information, comparing
+    possible solutions, choosing an approach and managing time more effectively.
+  course_page: https://alison.com/course/problem-solving-and-critical-thinking-skills?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays Beginner level, an estimated 3–4 hours, English and Spanish, and CPD accreditation.
+  career_ids: []
+  learning_path_ids: []
+- id: LIFE002
+  title: How to Manage Your Time
+  cluster: leadership
+  level: Intermediate
+  duration: 4–5 hours
+  summary: Covers time-management models and strategies for planning, prioritising and using time more deliberately
+    across work and everyday life.
+  course_page: https://alison.com/course/how-to-manage-your-time?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  cpd_accredited: true
+  data_note: Alison displays Intermediate level, an estimated 4–5 hours, English and CPD accreditation.
+  career_ids: []
+  learning_path_ids: []
+- id: FIN002
+  title: Practical Lessons on Personal Finance
+  cluster: finance
+  level: Not listed
+  duration: 1.5–3 hours
+  summary: Introduces personal financial planning, budgeting, spending decisions, savings, investments and the basics
+    of managing personal resources.
+  course_page: https://alison.com/course/practical-lessons-on-personal-finance?utm_source=alison_user&utm_medium=affiliate&utm_campaign=54834349
+  reviewed: '2026-11-07'
+  credential_type: Certificate
+  languages:
+  - English
+  - Spanish
+  cpd_accredited: true
+  data_note: Alison displays an estimated 1.5–3 hours, English and Spanish, and CPD accreditation; a course level
+    was not confirmed on the reviewed page.
+  career_ids: []
+  learning_path_ids: []

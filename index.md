@@ -20,7 +20,7 @@ permalink: /
   </div>
   <div class="hero-bottom-line"><span>SKILL NORTH / 2027 AND BEYOND</span><span>LEARN · PRACTISE · APPLY</span></div>
 </section>
-<section class="proof-strip"><div class="shell proof-grid"><div><strong>12</strong><span>curated skill clusters</span></div><div><strong>19</strong><span>selected course starting points</span></div><div><strong>10</strong><span>practical skill guides</span></div></div></section>
+<section class="proof-strip"><div class="shell proof-grid"><div><strong>12</strong><span>curated skill clusters</span></div><div><strong>35</strong><span>selected course starting points</span></div><div><strong>13</strong><span>practical skill guides</span></div></div></section>
 <section class="section shell section-intro">
   <div class="section-heading section-heading-large"><div><p class="eyebrow">Explore by skill, not by hype</p><h2>Where do you want<br>to build confidence?</h2></div><p>Job titles change. Useful capabilities travel across industries. Start with the skill you want to develop, then build a learning path around it.</p></div>
   <div class="search-row"><label for="cluster-search">Find a skill cluster</label><div class="search-box"><span aria-hidden="true">⌕</span><input id="cluster-search" type="search" placeholder="Try AI, data, marketing, leadership…" autocomplete="off"><button id="clear-search" type="button" aria-label="Clear search">×</button></div><p id="search-status" aria-live="polite">Showing all 12 skill clusters.</p></div>

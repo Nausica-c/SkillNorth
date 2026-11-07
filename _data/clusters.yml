@@ -283,6 +283,7 @@
   - project
   course_ids:
   - FIN001
+  - FIN002
   why: Financial understanding is useful even for people who are not accountants. It helps founders, managers, analysts
     and team leads ask better questions about costs, cash, profitability and performance.
   sequence:
@@ -322,6 +323,8 @@
   - LEAD001
   - HR003
   - HR004
+  - LIFE001
+  - LIFE002
   why: Technology changes tasks, but work still happens through people. Clear communication, fair people processes
     and the ability to support teams remain useful across industries and job levels.
   sequence:

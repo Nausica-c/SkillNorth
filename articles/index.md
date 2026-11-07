@@ -2,14 +2,14 @@
 layout: page
 title: "Practical Skill Guides for 2027"
 seo_title: "Practical Skill Guides for 2027 | SkillNorth"
-description: "Explore practical guides to AI, data, cybersecurity, cloud computing, programming, project management, digital marketing, sustainability, leadership and HR skills."
+description: "Explore practical guides to technical, transferable, workplace, student and life skills, from AI and data to communication, critical thinking and financial literacy."
 kicker: "SKILLNORTH · PRACTICAL GUIDES"
 permalink: /articles/
 ---
 
 Build one capability at a time. These practical guides explain what a skill involves, where to begin, how to practise and which Alison courses in the current SkillNorth catalogue may be relevant.
 
-The ten core 2027 guides and their supporting programming article expand the wider [Essential Skills for 2027 guide]({{ '/guides/essential-skills-for-2027/' | relative_url }}) and the [12 skill clusters]({{ '/clusters/' | relative_url }}). Course availability and provider details can change; check each live Alison page before enrolling.
+The practical guides expand the wider [Essential Skills for 2027 guide]({{ '/guides/essential-skills-for-2027/' | relative_url }}) and the [12 skill clusters]({{ '/clusters/' | relative_url }}). Course availability and provider details can change; check each live Alison page before enrolling.
 
 <div class="article-grid article-index-grid">
 {% for article in site.data.articles %}

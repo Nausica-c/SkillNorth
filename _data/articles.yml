@@ -211,3 +211,50 @@
   course_ids:
   - SOFT001
   - SOFT002
+- id: '12'
+  slug: hard-skills-vs-soft-skills-2027
+  title: 'Hard Skills vs Soft Skills: What Employers Really Look for in 2027'
+  url: /articles/hard-skills-vs-soft-skills-2027/
+  description: Understand the difference between technical and transferable skills, why employers need both and
+    how to build a balanced skill set for 2027.
+  kicker: PRACTICAL GUIDE · CAREER & TRANSFERABLE SKILLS
+  cluster_ids:
+  - ai
+  - data
+  - project
+  - leadership
+  reading_time: 9 min
+  primary_keyword: hard skills vs soft skills
+  priority: supporting
+  course_ids:
+  - AI001
+  - DATA001
+  - PROJ001
+  - HR002
+  - LEAD001
+  - LIFE001
+- id: '13'
+  slug: skills-to-learn-before-20
+  title: 20 Essential Skills to Learn Before You Turn 20
+  url: /articles/skills-to-learn-before-20/
+  description: A practical guide to digital, personal, financial and professional skills that can help young people
+    build confidence and independence.
+  kicker: PRACTICAL GUIDE · STUDENT & LIFE SKILLS
+  cluster_ids:
+  - ai
+  - data
+  - cyber
+  - project
+  - leadership
+  - finance
+  reading_time: 10 min
+  primary_keyword: skills to learn before 20
+  priority: supporting
+  course_ids:
+  - LIFE001
+  - LIFE002
+  - FIN002
+  - AI001
+  - CYBER001
+  - HR002
+  - PROJ001

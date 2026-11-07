@@ -78,6 +78,12 @@ The reports point in a similar direction: digital and AI capabilities are becomi
   </div>
 </section>
 
+## Two useful starting points for different stages of learning
+
+If you are comparing the technical and human capabilities employers value, read [Hard Skills vs Soft Skills: What Employers Really Look for in 2027]({{ '/articles/hard-skills-vs-soft-skills-2027/' | relative_url }}). It explains how to combine specialist knowledge with communication, judgement and collaboration.
+
+If you are a student or a young adult building everyday independence, explore [20 Essential Skills to Learn Before You Turn 20]({{ '/articles/skills-to-learn-before-20/' | relative_url }}). It covers digital safety, learning habits, financial basics and practical skills for working with others.
+
 ## The transferable skills to build first {: #transferable-skills}
 
 These capabilities can support many different occupations. They are a practical foundation whether you work in administration, retail, engineering, healthcare, education, finance, operations or a technology role.
